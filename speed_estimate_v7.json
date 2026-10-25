@@ -1,0 +1,25 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "cpu": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+  "images": 73,
+  "measured_mean_ms": 20.3,
+  "measured_p95_ms": 48.0,
+  "gpu_kernels_mean_ms": 14.9,
+  "cpu_side_mean_ms": 5.4,
+  "note": "Estimate = gpu_kernels * k_gpu + cpu_side * k_cpu, no CPU/GPU overlap assumed (upper bound). This is an estimate, not a GTX 1050 Ti measurement.",
+  "cpu_factor": 1.2,
+  "estimate_gtx1050ti": {
+    "k_gpu=3": {
+      "mean_ms": 51.1,
+      "p95_ms_approx": 121.0
+    },
+    "k_gpu=4": {
+      "mean_ms": 66.0,
+      "p95_ms_approx": 156.3
+    },
+    "k_gpu=5": {
+      "mean_ms": 80.9,
+      "p95_ms_approx": 191.5
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "images": 32,
+  "by_type": {
+    "type1a": {
+      "total": 32,
+      "correct": 18,
+      "accuracy": 0.562
+    }
+  },
+  "all_targets": {
+    "total": 32,
+    "correct": 18
+  },
+  "other_images": 0,
+  "other_output_as_type1": 0,
+  "predictions_on_unlabelled_images": [],
+  "errors": [
+    {
+      "image": "33c428d8d30be72f5fa5079b329b093b.jpg",
+      "expected": "M085PM28 type1a",
+      "predicted": []
+    },
+    {
+      "image": "507986cc1db78ad35f1a0efe1c1d3a99.jpg",
+      "expected": "P918PX22 type1a",
+      "predicted": [
+        "P#18PX25 type1a"
+      ]
+    },
+    {
+      "image": "661a9f733e50b41f1e370d4c29dc2717.jpg",
+      "expected": "A530HM138 type1a",
+      "predicted": [
+        "C530HM1#9 type1a"
+      ]
+    },
+    {
+      "image": "665b478e859e583342554d507ad882a5.jpg",
+      "expected": "B101HP14 type1a",
+      "predicted": [
+        "B101HE14 type1a"
+      ]
+    },
+    {
+      "image": "6ee8bf42b78c072f6d511ece447da383.jpg",
+      "expected": "B715XX27 type1a",
+      "predicted": []
+    },
+    {
+      "image": "86691ff03fc1ff32e7863c1a12cfca5c.jpg",
+      "expected": "P918PX22 type1a",
+      "predicted": [
+        "A#32#X27 type1a"
+      ]
+    },
+    {
+      "image": "8c70524c08fb3e91a2690de8b5340d56.jpg",
+      "expected": "T257MX790 type1a",
+      "predicted": [
+        "T257MX730 type1a"
+      ]
+    },
+    {
+      "image": "adf76a2f9057256fa3c1cd4f0adbfd76.jpg",
+      "expected": "M085PM28 type1a",
+      "predicted": [
+        "M085PM## type1a"
+      ]
+    },
+    {
+      "image": "c6e7199c553abaafd83b2446c0464b8d.jpg",
+      "expected": "X123EE142 type1a",
+      "predicted": [
+        "X123EE12 type1a"
+      ]
+    },
+    {
+      "image": "df5d974ea78d4d8a94d040c9933f25ae.jpg",
+      "expected": "M085PM28 type1a",
+      "predicted": [
+        "M085PM29 type1a"
+      ]
+    },
+    {
+      "image": "e089f6054d1db78f9be5663fe1ca8716.jpg",
+      "expected": "T755EY19 type1a",
+      "predicted": []
+    },
+    {
+      "image": "e7e0db460df097131dc11cca2a8a030e.jpg",
+      "expected": "P918PX22 type1a",
+      "predicted": [
+        "T#86##257 type1a"
+      ]
+    },
+    {
+      "image": "e994edf3a78f2575f55ba897e8f63471.jpg",
+      "expected": "H272CX124 type1a",
+      "predicted": [
+        "H272CX15# type1a"
+      ]
+    },
+    {
+      "image": "ec873e651799bc6d06c3092110a86263.jpg",
+      "expected": "X679CX790 type1a",
+      "predicted": [
+        "Y679#C#79 type1a"
+      ]
+    }
+  ]
+}

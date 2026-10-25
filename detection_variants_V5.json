@@ -1,0 +1,23 @@
+{
+  "V5 = V4 + length_repair": {
+    "correct": 63,
+    "by_type": {
+      "type1a": "19/27",
+      "type1b": "44/63"
+    },
+    "extra": 16,
+    "other_as_type1": 0,
+    "missed_not_detected": 6,
+    "missed_no_text": 9,
+    "categories": {
+      "correct": 63,
+      "read_with_hash": 4,
+      "missed_no_text": 9,
+      "missed_not_detected": 6,
+      "wrong_chars_1": 6,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 30.0,
+    "p95_ms": 56.8
+  }
+}

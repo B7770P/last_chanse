@@ -1,0 +1,1499 @@
+{
+  "config": {
+    "data": "dataset_composite5000",
+    "split": "splits/real606.json",
+    "split_part": "val",
+    "limit": 0,
+    "ocr": "models/ocr_synth2_20261025/best.pt",
+    "det": 0.35,
+    "char": 0.4,
+    "out": "val_errors.json"
+  },
+  "summary": {
+    "type1a": {
+      "counts": {
+        "correct": 18,
+        "read_with_hash": 2,
+        "missed_not_detected": 2,
+        "wrong_chars_3+": 1,
+        "wrong_chars_1": 1,
+        "missed_no_text": 3
+      },
+      "median_width": {
+        "missed_no_text": 65.6,
+        "missed_not_detected": 82.85,
+        "correct": 98.2
+      }
+    },
+    "type1b": {
+      "counts": {
+        "correct": 40,
+        "missed_no_text": 5,
+        "read_with_hash": 2,
+        "missed_not_detected": 10,
+        "wrong_chars_1": 5,
+        "unreadable_label": 1,
+        "wrong_chars_3+": 1
+      },
+      "median_width": {
+        "missed_no_text": 69.2,
+        "missed_not_detected": 74.8,
+        "correct": 160.25
+      }
+    },
+    "other": {
+      "detected_not_output": 7,
+      "not_detected": 1
+    }
+  },
+  "records": [
+    {
+      "image": "images/real/-oGP2iA-nz9rW8ZSHgSntE4klrUqQnn2qbDOoSVwPD8vJ5ZQBuFxiLPbLA5dBhKKjVDBzNF4yegjP_x8whr6VcF0.jpg",
+      "plate_type": "type1b",
+      "truth": "KK18614",
+      "category": "correct",
+      "pred": "KK18614 type1b",
+      "pred_conf": 0.713,
+      "width": 105.7,
+      "height": 29.7,
+      "image_w": 1166,
+      "image_h": 772,
+      "all_preds": [
+        "KK18614 type1b"
+      ]
+    },
+    {
+      "image": "images/real/05472_20081021_158-ORIGINALFILE.jpg",
+      "plate_type": "type1b",
+      "truth": "AP31077",
+      "category": "correct",
+      "pred": "AP31077 type1b",
+      "pred_conf": 0.904,
+      "width": 212.3,
+      "height": 58.5,
+      "image_w": 3008,
+      "image_h": 2000,
+      "all_preds": [
+        "AP31077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/09349_20130402_0017-ORIGINALFILE.jpg",
+      "plate_type": "type1b",
+      "truth": "AY25677",
+      "category": "correct",
+      "pred": "AY25677 type1b",
+      "pred_conf": 0.612,
+      "width": 156.6,
+      "height": 41.4,
+      "image_w": 2560,
+      "image_h": 1920,
+      "all_preds": [
+        "AY25677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/11520795464_f90f3d9a9f_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE79277",
+      "category": "correct",
+      "pred": "AE79277 type1b",
+      "pred_conf": 0.942,
+      "width": 335.1,
+      "height": 100.9,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AE79277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/121896_amp.jpeg",
+      "plate_type": "type1b",
+      "truth": "YX91677",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.85,
+      "width": 106.6,
+      "height": 33.2,
+      "image_w": 1200,
+      "image_h": 900,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/14448238456_3c0f766609_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EE08577",
+      "category": "correct",
+      "pred": "EE08577 type1b",
+      "pred_conf": 0.758,
+      "width": 153.4,
+      "height": 74.5,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "EE08577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16552236568_d678de2004_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AC96177",
+      "category": "read_with_hash",
+      "pred": "AC9#177 type1b",
+      "pred_conf": 0.518,
+      "width": 159.5,
+      "height": 43.9,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AC9#177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16552236568_d678de2004_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY03377",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 143.6,
+      "height": 47.9,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AC9#177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16795945929_cc319d3569_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AM68486",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 68.0,
+      "height": 24.1,
+      "image_w": 1024,
+      "image_h": 680,
+      "all_preds": [
+        "C#11A#25 type1",
+        "O792#H86 type1"
+      ]
+    },
+    {
+      "image": "images/real/33452772176_0d7437d0d0_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EY22650",
+      "category": "correct",
+      "pred": "EY22650 type1b",
+      "pred_conf": 0.798,
+      "width": 284.1,
+      "height": 110.5,
+      "image_w": 5143,
+      "image_h": 3420,
+      "all_preds": [
+        "EY22650 type1b"
+      ]
+    },
+    {
+      "image": "images/real/3916188605_0ddb45a350_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY14277",
+      "category": "correct",
+      "pred": "AY14277 type1b",
+      "pred_conf": 0.793,
+      "width": 157.9,
+      "height": 55.4,
+      "image_w": 2064,
+      "image_h": 1333,
+      "all_preds": [
+        "AY14277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/4115287392_e8a04f7380_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB36764",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 43.2,
+      "height": 16.9,
+      "image_w": 1024,
+      "image_h": 685,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/4713534105_6441face64_o.jpg",
+      "plate_type": "other",
+      "truth": "3364AT50",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 339.1,
+      "height": 95.4,
+      "image_w": 2964,
+      "image_h": 2296,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/4VXM-zQk9MkV0Zes87WBX8neWnvMSVxgnlqttC-MlnpGUCVWZqW_gnRCw1HuNykgtzL22jdAH2-1dRIbTUjgLLxMmLoFOfCgaIyXxaOVjUvBqy93iDg0ceozpMVLye8jOxgM-9YlMkPtshK5Y97xSf9Wt8Oe-Fo-dKTbI83AfbVJyWyHhKAJ1Q.webp.jpg",
+      "plate_type": "other",
+      "truth": "BA166K77",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 74.0,
+      "height": 21.0,
+      "image_w": 427,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/4VXM-zQk9MkV0Zes87WBX8neWnvMSVxgnlqttXud0n8rEBFOc_TjklhLgg3nbxUp4n7uxjNIFiuYIRoaIAmsFKhNzL4FPfC0RKSXxaOVjUvBqy93iDg0ceozpMVLye8jOxgM-9YlMkPtshK5Y97xSf9Wt8Oe-Fo-dKTbI83AfbVJyWyHhKAJ1Q.webp.jpg",
+      "plate_type": "type1b",
+      "truth": "AM22299",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 74.0,
+      "height": 59.0,
+      "image_w": 240,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/51063460123_c87aa88167_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BY08777",
+      "category": "correct",
+      "pred": "BY08777 type1b",
+      "pred_conf": 0.718,
+      "width": 171.5,
+      "height": 39.9,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "BY08777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063542273_0d65f43aa7_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BE91477",
+      "category": "wrong_chars_1",
+      "pred": "PE91477 type1b",
+      "pred_conf": 0.869,
+      "width": 279.1,
+      "height": 99.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "PE91477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064168931_05b74b8183_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BY08777",
+      "category": "wrong_chars_1",
+      "pred": "PY08777 type1b",
+      "pred_conf": 0.73,
+      "width": 183.4,
+      "height": 43.9,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "PY08777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064186366_29594034bc_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB56969",
+      "category": "correct",
+      "pred": "AB56969 type1b",
+      "pred_conf": 0.75,
+      "width": 188.3,
+      "height": 82.9,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AB56969 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064186366_29594034bc_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AM17550",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 158.2,
+      "height": 64.0,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AB56969 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064223137_a31be016ba_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BB57301",
+      "category": "correct",
+      "pred": "BB57301 type1b",
+      "pred_conf": 0.741,
+      "width": 214.0,
+      "height": 72.7,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "BB57301 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064258306_a7b50727d5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT20677",
+      "category": "correct",
+      "pred": "AT20677 type1b",
+      "pred_conf": 0.79,
+      "width": 207.4,
+      "height": 59.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT20677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064440961_f5d00ce5f5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BT18077",
+      "category": "correct",
+      "pred": "BT18077 type1b",
+      "pred_conf": 0.934,
+      "width": 339.0,
+      "height": 135.6,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "BT18077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064478442_e76610c3e2_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EA26650",
+      "category": "wrong_chars_1",
+      "pred": "AA26650 type1b",
+      "pred_conf": 0.871,
+      "width": 283.1,
+      "height": 115.6,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AA26650 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064534791_3e1ccd844f_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AX27377",
+      "category": "correct",
+      "pred": "AX27377 type1b",
+      "pred_conf": 0.749,
+      "width": 171.5,
+      "height": 55.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AX27377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064587112_7bc85afd64_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY35877",
+      "category": "correct",
+      "pred": "AY35877 type1b",
+      "pred_conf": 0.878,
+      "width": 267.2,
+      "height": 75.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AY35877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064627382_b13d23b81d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AX27377",
+      "category": "correct",
+      "pred": "AX27377 type1b",
+      "pred_conf": 0.823,
+      "width": 159.5,
+      "height": 79.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AX27377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/52903093369_f4e7709512_o.jpg",
+      "plate_type": "type1b",
+      "truth": "PK76977",
+      "category": "correct",
+      "pred": "PK76977 type1b",
+      "pred_conf": 0.712,
+      "width": 191.0,
+      "height": 60.5,
+      "image_w": 2858,
+      "image_h": 2069,
+      "all_preds": [
+        "PK76977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/54539790242_dccfe1f2e5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EC04177",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 142.4,
+      "height": 46.1,
+      "image_w": 4608,
+      "image_h": 2592,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/54541009145_5ca2e29965_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EC04177",
+      "category": "correct",
+      "pred": "EC04177 type1b",
+      "pred_conf": 0.79,
+      "width": 188.5,
+      "height": 62.8,
+      "image_w": 4608,
+      "image_h": 2592,
+      "all_preds": [
+        "EC04177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/54604902964_e99b285d6a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "YA48377",
+      "category": "correct",
+      "pred": "YA48377 type1b",
+      "pred_conf": 0.497,
+      "width": 239.3,
+      "height": 64.8,
+      "image_w": 4320,
+      "image_h": 3240,
+      "all_preds": [
+        "YA48377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/54605012375_88fbeb44d5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "OK13177",
+      "category": "correct",
+      "pred": "OK13177 type1b",
+      "pred_conf": 0.961,
+      "width": 458.6,
+      "height": 124.6,
+      "image_w": 4320,
+      "image_h": 3240,
+      "all_preds": [
+        "OK13177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/55006185815_cd83a6bd08_o.jpg",
+      "plate_type": "type1b",
+      "truth": "CA72077",
+      "category": "correct",
+      "pred": "CA72077 type1b",
+      "pred_conf": 0.681,
+      "width": 150.6,
+      "height": 50.2,
+      "image_w": 2560,
+      "image_h": 1920,
+      "all_preds": [
+        "CA72077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/55320967410_a132ee5e8a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AA19577",
+      "category": "correct",
+      "pred": "AA19577 type1b",
+      "pred_conf": 0.77,
+      "width": 188.4,
+      "height": 57.0,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "AA19577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/5uqy-Un6J_1py5GV9HMaRUiDQfEwmjO4C86fieOvBuWCAjoNFLPKxyBhgodsrOQB0MTdp03FrMgC5pfcxAN4_jjw.jpg",
+      "plate_type": "other",
+      "truth": "6834AM02",
+      "category": "not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 58.0,
+      "height": 54.0,
+      "image_w": 1024,
+      "image_h": 576,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/8811961219_540b0a28bc_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY14277",
+      "category": "correct",
+      "pred": "AY14277 type1b",
+      "pred_conf": 0.944,
+      "width": 226.1,
+      "height": 56.5,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AY14277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/8822552532_205dfb23b8_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BK18677",
+      "category": "wrong_chars_1",
+      "pred": "PK18677 type1b",
+      "pred_conf": 0.696,
+      "width": 133.4,
+      "height": 82.4,
+      "image_w": 3768,
+      "image_h": 2550,
+      "all_preds": [
+        "PK18677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/9723893617_a8fe113375_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AO75477",
+      "category": "correct",
+      "pred": "AO75477 type1b",
+      "pred_conf": 0.789,
+      "width": 132.8,
+      "height": 37.4,
+      "image_w": 1824,
+      "image_h": 1216,
+      "all_preds": [
+        "AO75477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/9733598580_b4e711894c_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BY93677",
+      "category": "correct",
+      "pred": "BY93677 type1b",
+      "pred_conf": 0.85,
+      "width": 116.6,
+      "height": 44.1,
+      "image_w": 3072,
+      "image_h": 2048,
+      "all_preds": [
+        "BY93677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Buseto_Aromaŝevo_-_Tjumeno_01.jpg",
+      "plate_type": "type1b",
+      "truth": "AO69872",
+      "category": "correct",
+      "pred": "AO69872 type1b",
+      "pred_conf": 0.777,
+      "width": 347.7,
+      "height": 100.5,
+      "image_w": 4608,
+      "image_h": 2592,
+      "all_preds": [
+        "AO69872 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Buseto_Aromaŝevo_-_Tjumeno_02.jpg",
+      "plate_type": "type1b",
+      "truth": "AO69872",
+      "category": "correct",
+      "pred": "AO69872 type1b",
+      "pred_conf": 0.907,
+      "width": 364.5,
+      "height": 146.6,
+      "image_w": 4608,
+      "image_h": 2592,
+      "all_preds": [
+        "AO69872 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Buso_Hyundai_Universe_en_Tjumeno_01.jpg",
+      "plate_type": "type1b",
+      "truth": "AM88572",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.862,
+      "width": 213.5,
+      "height": 96.7,
+      "image_w": 4432,
+      "image_h": 2494,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Buso_Hyundai_Universe_en_Tjumeno_02.jpg",
+      "plate_type": "type1b",
+      "truth": "AM88572",
+      "category": "correct",
+      "pred": "AM88572 type1b",
+      "pred_conf": 0.754,
+      "width": 188.7,
+      "height": 109.3,
+      "image_w": 3642,
+      "image_h": 2044,
+      "all_preds": [
+        "AM88572 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Golovinsky_District,_Moscow,_Russia_-_panoramio_(10).jpg",
+      "plate_type": "type1b",
+      "truth": "EA51777",
+      "category": "correct",
+      "pred": "EA51777 type1b",
+      "pred_conf": 0.826,
+      "width": 67.0,
+      "height": 18.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "EA51777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Isuzu_bus_in_Cheboksary,_Russia.jpg",
+      "plate_type": "type1b",
+      "truth": "AM94621",
+      "category": "correct",
+      "pred": "AM94621 type1b",
+      "pred_conf": 0.821,
+      "width": 72.0,
+      "height": 25.5,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "AM94621 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Gazelle_Next_in_'Social_Taxi'_livery,_Sept_2025_01.jpg",
+      "plate_type": "type1b",
+      "truth": "PT74977",
+      "category": "correct",
+      "pred": "PT74977 type1b",
+      "pred_conf": 0.497,
+      "width": 86.0,
+      "height": 25.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "PT74977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Luidor-2250D_(GAZelle_Next)_bus,_May_2026_01.jpg",
+      "plate_type": "type1b",
+      "truth": "PT75577",
+      "category": "correct",
+      "pred": "PT75577 type1b",
+      "pred_conf": 0.785,
+      "width": 161.0,
+      "height": 44.3,
+      "image_w": 960,
+      "image_h": 960,
+      "all_preds": [
+        "PT75577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Pokrovka_14,12,_electric_bus,_May_2021_03.jpg",
+      "plate_type": "type1b",
+      "truth": "CB75177",
+      "category": "correct",
+      "pred": "CB75177 type1b",
+      "pred_conf": 0.855,
+      "width": 68.0,
+      "height": 23.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "CB75177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_southbound_city_bus_06511_on_Sheremetyevsky_overpass.jpg",
+      "plate_type": "type1b",
+      "truth": "AO63577",
+      "category": "correct",
+      "pred": "AO63577 type1b",
+      "pred_conf": 0.732,
+      "width": 45.0,
+      "height": 14.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "AO63577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_southbound_city_bus_06511_on_Sheremetyevsky_overpass.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 25.0,
+      "height": 12.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "AO63577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Mosgortrans_moscow_bus_16239_Volzanin-6270.06_(16087949196).jpg",
+      "plate_type": "type1b",
+      "truth": "EK18977",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.656,
+      "width": 43.0,
+      "height": 14.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Russia_police_car_04.JPG",
+      "plate_type": "other",
+      "truth": "B079878",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 88.0,
+      "height": 50.0,
+      "image_w": 960,
+      "image_h": 645,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Russian_police_car_12.JPG",
+      "plate_type": "other",
+      "truth": "A020039",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 132.9,
+      "height": 60.9,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Sevan_street_2021-09_1631382188.JPG",
+      "plate_type": "type1b",
+      "truth": "HX93777",
+      "category": "correct",
+      "pred": "HX93777 type1b",
+      "pred_conf": 0.824,
+      "width": 93.0,
+      "height": 26.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "HX93777 type1b",
+        "PX95577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Sevan_street_2021-09_1631382188.JPG",
+      "plate_type": "type1b",
+      "truth": "PX95577",
+      "category": "correct",
+      "pred": "PX95577 type1b",
+      "pred_conf": 0.753,
+      "width": 103.0,
+      "height": 31.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "HX93777 type1b",
+        "PX95577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+      "plate_type": "type1b",
+      "truth": "OB30377",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 35.0,
+      "height": 15.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "##9377# type1b",
+        "PX95577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+      "plate_type": "type1b",
+      "truth": "MK86677",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 33.0,
+      "height": 16.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "##9377# type1b",
+        "PX95577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+      "plate_type": "type1b",
+      "truth": "HK93777",
+      "category": "read_with_hash",
+      "pred": "##9377# type1b",
+      "pred_conf": 0.2,
+      "width": 43.0,
+      "height": 16.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "##9377# type1b",
+        "PX95577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+      "plate_type": "type1b",
+      "truth": "PX95577",
+      "category": "correct",
+      "pred": "PX95577 type1b",
+      "pred_conf": 0.616,
+      "width": 47.0,
+      "height": 18.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "##9377# type1b",
+        "PX95577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/ZvbJuWlhldqt9IT8PxzJTWzTuhX1BqeB6m81BYn86_P1k8OCsRfv0rm76NBo0_HDYJhYVRB9vcr3Gl4qtISzeukm.jpg",
+      "plate_type": "type1b",
+      "truth": "AY24316",
+      "category": "correct",
+      "pred": "AY24316 type1b",
+      "pred_conf": 0.911,
+      "width": 113.8,
+      "height": 51.0,
+      "image_w": 1300,
+      "image_h": 948,
+      "all_preds": [
+        "AY24316 type1b"
+      ]
+    },
+    {
+      "image": "images/real/gKk15Wt64r7GrCzPq-lYlhN-2PF6mbPP8cHX7m52wGSBUaXGT56UdZEku8LxoE_Ru80Mqh_byNt_lWY575snOR_b.jpg",
+      "plate_type": "type1b",
+      "truth": "EP15450",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.913,
+      "width": 69.2,
+      "height": 26.2,
+      "image_w": 1499,
+      "image_h": 1000,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/i (2).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "AA20577",
+      "category": "correct",
+      "pred": "AA20577 type1b",
+      "pred_conf": 0.947,
+      "width": 80.0,
+      "height": 21.0,
+      "image_w": 479,
+      "image_h": 320,
+      "all_preds": [
+        "AA20577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (3).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "EE70166",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.849,
+      "width": 55.0,
+      "height": 17.0,
+      "image_w": 427,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/ofLW_HXiM-GnqE-TkYnlILZUhy4aJ7tdVX-I4o7JukRnvKyXyJpI0U0W6rVKAZNPZZtc_v3IAt4iKDG8I5gwdeTQ.jpg",
+      "plate_type": "other",
+      "truth": "4059AH02",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 123.9,
+      "height": 101.2,
+      "image_w": 1088,
+      "image_h": 739,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (5).webp_aa9badbfec.jpg",
+      "plate_type": "other",
+      "truth": "2332MP99",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 84.0,
+      "height": 20.0,
+      "image_w": 480,
+      "image_h": 300,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/p-pR-TTZW0rnxfiLA9ak_rFpcvHtWPifWNHcm_solImMiPGEAX2ymBgYE-0dDZBc9X7dzFxQVi3IkcjahgCE4hjC.jpg",
+      "plate_type": "other",
+      "truth": "4620AH02",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 147.1,
+      "height": 144.4,
+      "image_w": 2560,
+      "image_h": 1707,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo-1603959984039-0a65a8be42ae.jpg",
+      "plate_type": "type1b",
+      "truth": "OC14577",
+      "category": "correct",
+      "pred": "OC14577 type1b",
+      "pred_conf": 0.3,
+      "width": 45.2,
+      "height": 13.6,
+      "image_w": 735,
+      "image_h": 980,
+      "all_preds": [
+        "OC14577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo-1652270625079-83dd767498db.jpg",
+      "plate_type": "type1b",
+      "truth": "BP09299",
+      "category": "wrong_chars_3+",
+      "pred": "CT09777 type1b",
+      "pred_conf": 0.576,
+      "width": 59.5,
+      "height": 33.5,
+      "image_w": 1074,
+      "image_h": 806,
+      "all_preds": [
+        "CT09777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo-1652270625079-83dd767498db.jpg",
+      "plate_type": "type1b",
+      "truth": "TP16577",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 75.6,
+      "height": 38.4,
+      "image_w": 1074,
+      "image_h": 806,
+      "all_preds": [
+        "CT09777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo-1707334035191-bc0b5650f5e0.jpg",
+      "plate_type": "type1b",
+      "truth": "BC26699",
+      "category": "correct",
+      "pred": "BC26699 type1b",
+      "pred_conf": 0.632,
+      "width": 78.0,
+      "height": 24.0,
+      "image_w": 1170,
+      "image_h": 780,
+      "all_preds": [
+        "BC26699 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo_007.png",
+      "plate_type": "type1a",
+      "truth": "O698TK799",
+      "category": "correct",
+      "pred": "O698TK799 type1a",
+      "pred_conf": 0.905,
+      "width": 116.7,
+      "height": 99.8,
+      "image_w": 1472,
+      "image_h": 914,
+      "all_preds": [
+        "O698TK799 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_008.png",
+      "plate_type": "type1a",
+      "truth": "O698TK799",
+      "category": "correct",
+      "pred": "O698TK799 type1a",
+      "pred_conf": 0.429,
+      "width": 84.5,
+      "height": 149.1,
+      "image_w": 1664,
+      "image_h": 999,
+      "all_preds": [
+        "O698TK799 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_009.png",
+      "plate_type": "type1a",
+      "truth": "O698TK799",
+      "category": "correct",
+      "pred": "O698TK799 type1a",
+      "pred_conf": 0.878,
+      "width": 150.8,
+      "height": 124.9,
+      "image_w": 1635,
+      "image_h": 1054,
+      "all_preds": [
+        "O698TK799 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_010.png",
+      "plate_type": "type1a",
+      "truth": "A882TE797",
+      "category": "read_with_hash",
+      "pred": "A882E#977 type1a",
+      "pred_conf": 0.408,
+      "width": 102.6,
+      "height": 112.3,
+      "image_w": 507,
+      "image_h": 702,
+      "all_preds": [
+        "A882E#977 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_016.png",
+      "plate_type": "type1a",
+      "truth": "P927YT797",
+      "category": "correct",
+      "pred": "P927YT797 type1a",
+      "pred_conf": 0.829,
+      "width": 98.7,
+      "height": 74.8,
+      "image_w": 522,
+      "image_h": 705,
+      "all_preds": [
+        "P927YT797 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_017.png",
+      "plate_type": "type1a",
+      "truth": "K488CO797",
+      "category": "correct",
+      "pred": "K488CO797 type1a",
+      "pred_conf": 0.919,
+      "width": 97.7,
+      "height": 160.5,
+      "image_w": 1919,
+      "image_h": 938,
+      "all_preds": [
+        "K488CO797 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_018.png",
+      "plate_type": "type1a",
+      "truth": "K488CO797",
+      "category": "correct",
+      "pred": "K488CO797 type1a",
+      "pred_conf": 0.96,
+      "width": 158.5,
+      "height": 144.6,
+      "image_w": 1916,
+      "image_h": 957,
+      "all_preds": [
+        "K488CO797 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_019.png",
+      "plate_type": "type1a",
+      "truth": "K488CO797",
+      "category": "read_with_hash",
+      "pred": "K488O#97 type1a",
+      "pred_conf": 0.576,
+      "width": 68.0,
+      "height": 94.2,
+      "image_w": 1919,
+      "image_h": 1006,
+      "all_preds": [
+        "K488O#97 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_045.png",
+      "plate_type": "type1a",
+      "truth": "C504XK790",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 64.5,
+      "height": 40.1,
+      "image_w": 1919,
+      "image_h": 1066,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo_046.png",
+      "plate_type": "type1a",
+      "truth": "C504XK790",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 101.2,
+      "height": 85.5,
+      "image_w": 1919,
+      "image_h": 1079,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo_047.png",
+      "plate_type": "type1a",
+      "truth": "C504XK790",
+      "category": "correct",
+      "pred": "C504XK790 type1a",
+      "pred_conf": 0.911,
+      "width": 146.5,
+      "height": 169.2,
+      "image_w": 1919,
+      "image_h": 1079,
+      "all_preds": [
+        "C504XK790 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_049.png",
+      "plate_type": "type1a",
+      "truth": "P982AY550",
+      "category": "wrong_chars_3+",
+      "pred": "P824AY57 type1a",
+      "pred_conf": 0.365,
+      "width": 89.0,
+      "height": 61.1,
+      "image_w": 1919,
+      "image_h": 1079,
+      "all_preds": [
+        "P824AY57 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_050.png",
+      "plate_type": "type1a",
+      "truth": "P982AY550",
+      "category": "correct",
+      "pred": "P982AY550 type1a",
+      "pred_conf": 0.954,
+      "width": 109.9,
+      "height": 146.5,
+      "image_w": 1919,
+      "image_h": 1079,
+      "all_preds": [
+        "P982AY550 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_052.png",
+      "plate_type": "type1a",
+      "truth": "P982AY550",
+      "category": "correct",
+      "pred": "P982AY550 type1a",
+      "pred_conf": 0.538,
+      "width": 115.1,
+      "height": 144.8,
+      "image_w": 1919,
+      "image_h": 1079,
+      "all_preds": [
+        "P982AY550 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_066.png",
+      "plate_type": "type1a",
+      "truth": "X622PO763",
+      "category": "correct",
+      "pred": "X622PO763 type1a",
+      "pred_conf": 0.94,
+      "width": 139.6,
+      "height": 161.7,
+      "image_w": 1920,
+      "image_h": 1440,
+      "all_preds": [
+        "X622PO763 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_067.png",
+      "plate_type": "type1a",
+      "truth": "X622PO763",
+      "category": "correct",
+      "pred": "X622PO763 type1a",
+      "pred_conf": 0.933,
+      "width": 144.0,
+      "height": 117.4,
+      "image_w": 1920,
+      "image_h": 1440,
+      "all_preds": [
+        "X622PO763 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_068.png",
+      "plate_type": "type1a",
+      "truth": "X622PO763",
+      "category": "correct",
+      "pred": "X622PO763 type1a",
+      "pred_conf": 0.875,
+      "width": 82.0,
+      "height": 97.5,
+      "image_w": 1920,
+      "image_h": 1440,
+      "all_preds": [
+        "X622PO763 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_077.png",
+      "plate_type": "type1a",
+      "truth": "O946OC75",
+      "category": "wrong_chars_1",
+      "pred": "O946HC75 type1a",
+      "pred_conf": 0.57,
+      "width": 99.7,
+      "height": 108.6,
+      "image_w": 1080,
+      "image_h": 1440,
+      "all_preds": [
+        "O946HC75 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_115.png",
+      "plate_type": "type1a",
+      "truth": "O879KK75",
+      "category": "correct",
+      "pred": "O879KK75 type1a",
+      "pred_conf": 0.908,
+      "width": 60.4,
+      "height": 61.7,
+      "image_w": 640,
+      "image_h": 853,
+      "all_preds": [
+        "O879KK75 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_116.png",
+      "plate_type": "type1a",
+      "truth": "O879KK75",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1a",
+      "pred_conf": 0.93,
+      "width": 65.6,
+      "height": 66.9,
+      "image_w": 640,
+      "image_h": 853,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo_117.png",
+      "plate_type": "type1a",
+      "truth": "O879KK75",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1a",
+      "pred_conf": 0.903,
+      "width": 61.7,
+      "height": 85.3,
+      "image_w": 640,
+      "image_h": 853,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo_128.png",
+      "plate_type": "type1a",
+      "truth": "H810PM125",
+      "category": "correct",
+      "pred": "H810PM125 type1a",
+      "pred_conf": 0.643,
+      "width": 93.0,
+      "height": 99.0,
+      "image_w": 480,
+      "image_h": 320,
+      "all_preds": [
+        "H810PM125 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_137.png",
+      "plate_type": "type1a",
+      "truth": "K021CK799",
+      "category": "correct",
+      "pred": "K021CK799 type1a",
+      "pred_conf": 0.902,
+      "width": 45.0,
+      "height": 28.0,
+      "image_w": 240,
+      "image_h": 320,
+      "all_preds": [
+        "K021CK799 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_138.png",
+      "plate_type": "type1a",
+      "truth": "B105HP763",
+      "category": "correct",
+      "pred": "B105HP763 type1a",
+      "pred_conf": 0.87,
+      "width": 87.0,
+      "height": 73.0,
+      "image_w": 480,
+      "image_h": 270,
+      "all_preds": [
+        "B105HP763 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_144.png",
+      "plate_type": "type1a",
+      "truth": "B055YB38",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1a",
+      "pred_conf": 0.608,
+      "width": 164.0,
+      "height": 128.0,
+      "image_w": 426,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo_150.png",
+      "plate_type": "type1a",
+      "truth": "X135CH56",
+      "category": "correct",
+      "pred": "X135CH56 type1a",
+      "pred_conf": 0.741,
+      "width": 77.0,
+      "height": 51.0,
+      "image_w": 366,
+      "image_h": 320,
+      "all_preds": [
+        "X135CH56 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_152.png",
+      "plate_type": "type1a",
+      "truth": "T575BE977",
+      "category": "correct",
+      "pred": "T575BE977 type1a",
+      "pred_conf": 0.923,
+      "width": 43.0,
+      "height": 31.0,
+      "image_w": 480,
+      "image_h": 270,
+      "all_preds": [
+        "T575BE977 type1a"
+      ]
+    },
+    {
+      "image": "images/real/ГАЗель_NEXT_МГТ_социальное_такси_на_парковке_ЮРЛ_02.jpg",
+      "plate_type": "type1b",
+      "truth": "PT97077",
+      "category": "wrong_chars_1",
+      "pred": "PT67077 type1b",
+      "pred_conf": 0.957,
+      "width": 87.5,
+      "height": 45.4,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "PT67077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Яндекс_Такси_с_предложением_в_Екатеринбурге_в_апреле_2020_года.jpg",
+      "plate_type": "type1b",
+      "truth": "KB58266",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 110.6,
+      "height": 80.3,
+      "image_w": 960,
+      "image_h": 678,
+      "all_preds": []
+    }
+  ]
+}

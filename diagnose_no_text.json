@@ -1,0 +1,367 @@
+{
+  "reasons": {
+    "wrong_length": 11
+  },
+  "records": [
+    {
+      "image": "images/real/121896_amp.jpeg",
+      "truth": "YX91677",
+      "plate_type": "type1b",
+      "width": 107,
+      "height": 33,
+      "base_candidates": [
+        "type1b 0.85"
+      ],
+      "after_merge": [
+        "type1b 0.85 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.85,
+          "alignment": "box",
+          "raw": "YYX91677",
+          "conf": [
+            0.56,
+            0.93,
+            0.99,
+            1.0,
+            0.99,
+            1.0,
+            1.0,
+            0.99
+          ],
+          "result": "length_8_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/16552236568_d678de2004_o.jpg",
+      "truth": "AY03377",
+      "plate_type": "type1b",
+      "width": 144,
+      "height": 48,
+      "base_candidates": [
+        "type1b 0.86"
+      ],
+      "after_merge": [
+        "type1b 0.86 base_960"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.86,
+          "alignment": "box",
+          "raw": "AY0377",
+          "conf": [
+            0.6,
+            0.38,
+            0.76,
+            0.93,
+            0.89,
+            0.73
+          ],
+          "result": "length_6_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/4115287392_e8a04f7380_o.jpg",
+      "truth": "AB36764",
+      "plate_type": "type1b",
+      "width": 43,
+      "height": 17,
+      "base_candidates": [
+        "type1b 0.41"
+      ],
+      "after_merge": [
+        "type1b 0.41 base_960"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.41,
+          "alignment": "box",
+          "raw": "A3677",
+          "conf": [
+            0.99,
+            0.63,
+            0.45,
+            1.0,
+            0.84
+          ],
+          "result": "length_5_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/51064186366_29594034bc_o.jpg",
+      "truth": "AM17550",
+      "plate_type": "type1b",
+      "width": 158,
+      "height": 64,
+      "base_candidates": [
+        "type1b 0.75"
+      ],
+      "after_merge": [
+        "type1b 0.75 base_960"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.75,
+          "alignment": "box",
+          "raw": "A17550",
+          "conf": [
+            0.93,
+            0.93,
+            1.0,
+            1.0,
+            0.95,
+            0.82
+          ],
+          "result": "length_6_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/Buso_Hyundai_Universe_en_Tjumeno_01.jpg",
+      "truth": "AM88572",
+      "plate_type": "type1b",
+      "width": 214,
+      "height": 97,
+      "base_candidates": [
+        "type1b 0.86"
+      ],
+      "after_merge": [
+        "type1b 0.86 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.86,
+          "alignment": "box",
+          "raw": "AM8857",
+          "conf": [
+            1.0,
+            0.98,
+            0.94,
+            1.0,
+            1.0,
+            0.82
+          ],
+          "result": "length_6_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/Mosgortrans_moscow_bus_16239_Volzanin-6270.06_(16087949196).jpg",
+      "truth": "EK18977",
+      "plate_type": "type1b",
+      "width": 43,
+      "height": 14,
+      "base_candidates": [
+        "type1b 0.66"
+      ],
+      "after_merge": [
+        "type1b 0.66 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.66,
+          "alignment": "box",
+          "raw": "EK8977",
+          "conf": [
+            0.37,
+            0.46,
+            0.83,
+            0.84,
+            0.9,
+            0.76
+          ],
+          "result": "length_6_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/gKk15Wt64r7GrCzPq-lYlhN-2PF6mbPP8cHX7m52wGSBUaXGT56UdZEku8LxoE_Ru80Mqh_byNt_lWY575snOR_b.jpg",
+      "truth": "EP15450",
+      "plate_type": "type1b",
+      "width": 69,
+      "height": 26,
+      "base_candidates": [
+        "type1b 0.91"
+      ],
+      "after_merge": [
+        "type1b 0.91 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.91,
+          "alignment": "box",
+          "raw": "EEP15450",
+          "conf": [
+            0.44,
+            0.86,
+            0.98,
+            1.0,
+            1.0,
+            1.0,
+            0.99,
+            0.99
+          ],
+          "result": "length_8_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/i (3).webp.jpg",
+      "truth": "EE70166",
+      "plate_type": "type1b",
+      "width": 55,
+      "height": 17,
+      "base_candidates": [
+        "type1b 0.85"
+      ],
+      "after_merge": [
+        "type1b 0.85 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1b",
+          "score": 0.85,
+          "alignment": "box",
+          "raw": "EE706",
+          "conf": [
+            0.71,
+            0.66,
+            0.92,
+            0.97,
+            0.45
+          ],
+          "result": "length_5_need_7"
+        },
+        {
+          "kind": "type1b",
+          "score": 0.85,
+          "alignment": "contour",
+          "raw": "EE7016",
+          "conf": [
+            0.82,
+            0.79,
+            0.33,
+            0.91,
+            0.43,
+            0.29
+          ],
+          "result": "length_6_need_7"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/photo_116.png",
+      "truth": "O879KK75",
+      "plate_type": "type1a",
+      "width": 66,
+      "height": 67,
+      "base_candidates": [
+        "type1a 0.93"
+      ],
+      "after_merge": [
+        "type1a 0.93 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1a",
+          "score": 0.93,
+          "alignment": "box",
+          "raw": "O879KK5",
+          "conf": [
+            0.63,
+            0.99,
+            0.97,
+            0.65,
+            1.0,
+            1.0,
+            0.94
+          ],
+          "result": "length_7_need_8/9"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/photo_117.png",
+      "truth": "O879KK75",
+      "plate_type": "type1a",
+      "width": 62,
+      "height": 85,
+      "base_candidates": [
+        "type1a 0.90"
+      ],
+      "after_merge": [
+        "type1a 0.90 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1a",
+          "score": 0.9,
+          "alignment": "box",
+          "raw": "O371K8",
+          "conf": [
+            0.54,
+            0.26,
+            0.44,
+            0.96,
+            0.96,
+            0.62
+          ],
+          "result": "length_6_need_8/9"
+        }
+      ],
+      "reason": "wrong_length"
+    },
+    {
+      "image": "images/real/photo_144.png",
+      "truth": "B055YB38",
+      "plate_type": "type1a",
+      "width": 164,
+      "height": 128,
+      "base_candidates": [
+        "type1a 0.61"
+      ],
+      "after_merge": [
+        "type1a 0.61 base"
+      ],
+      "crops": [
+        {
+          "kind": "type1a",
+          "score": 0.61,
+          "alignment": "box",
+          "raw": "B055B38",
+          "conf": [
+            1.0,
+            0.99,
+            1.0,
+            1.0,
+            0.72,
+            0.98,
+            1.0
+          ],
+          "result": "length_7_need_8/9"
+        }
+      ],
+      "reason": "wrong_length"
+    }
+  ]
+}

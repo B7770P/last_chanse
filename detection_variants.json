@@ -1,0 +1,148 @@
+{
+  "V0 как сейчас": {
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0,
+    "missed_not_detected": 12,
+    "missed_no_text": 8,
+    "categories": {
+      "correct": 58,
+      "missed_no_text": 8,
+      "read_with_hash": 4,
+      "missed_not_detected": 12,
+      "wrong_chars_1": 6,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 26.0,
+    "p95_ms": 47.1
+  },
+  "V1 основной +960 всегда": {
+    "correct": 61,
+    "by_type": {
+      "type1a": "19/27",
+      "type1b": "42/63"
+    },
+    "extra": 15,
+    "other_as_type1": 0,
+    "missed_not_detected": 5,
+    "missed_no_text": 12,
+    "categories": {
+      "correct": 61,
+      "missed_no_text": 12,
+      "read_with_hash": 4,
+      "missed_not_detected": 5,
+      "wrong_chars_1": 6,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 31.6,
+    "p95_ms": 47.5
+  },
+  "V2 первый проход 800": {
+    "correct": 59,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "42/63"
+    },
+    "extra": 16,
+    "other_as_type1": 0,
+    "missed_not_detected": 9,
+    "missed_no_text": 8,
+    "categories": {
+      "correct": 59,
+      "missed_not_detected": 9,
+      "read_with_hash": 3,
+      "missed_no_text": 8,
+      "wrong_chars_1": 11
+    },
+    "mean_ms": 27.3,
+    "p95_ms": 45.1
+  },
+  "V3 первый проход 960": {
+    "correct": 59,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "42/63"
+    },
+    "extra": 23,
+    "other_as_type1": 0,
+    "missed_not_detected": 6,
+    "missed_no_text": 7,
+    "categories": {
+      "correct": 59,
+      "missed_not_detected": 6,
+      "wrong_chars_1": 9,
+      "missed_no_text": 7,
+      "read_with_hash": 8,
+      "wrong_chars_3+": 1
+    },
+    "mean_ms": 29.5,
+    "p95_ms": 47.5
+  },
+  "V4 основной +960 (большие или пустые)": {
+    "correct": 61,
+    "by_type": {
+      "type1a": "19/27",
+      "type1b": "42/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0,
+    "missed_not_detected": 6,
+    "missed_no_text": 11,
+    "categories": {
+      "correct": 61,
+      "missed_no_text": 11,
+      "read_with_hash": 4,
+      "missed_not_detected": 6,
+      "wrong_chars_1": 6,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 27.1,
+    "p95_ms": 47.3
+  },
+  "V0 + decode 2048": {
+    "correct": 60,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "42/63"
+    },
+    "extra": 11,
+    "other_as_type1": 0,
+    "missed_not_detected": 11,
+    "missed_no_text": 10,
+    "categories": {
+      "correct": 60,
+      "missed_no_text": 10,
+      "wrong_chars_1": 4,
+      "missed_not_detected": 11,
+      "read_with_hash": 3,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 30.7,
+    "p95_ms": 54.1
+  },
+  "V1 + decode 2048": {
+    "correct": 63,
+    "by_type": {
+      "type1a": "19/27",
+      "type1b": "44/63"
+    },
+    "extra": 11,
+    "other_as_type1": 0,
+    "missed_not_detected": 5,
+    "missed_no_text": 13,
+    "categories": {
+      "correct": 63,
+      "missed_no_text": 13,
+      "wrong_chars_1": 4,
+      "missed_not_detected": 5,
+      "read_with_hash": 3,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 35.8,
+    "p95_ms": 57.1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images": 73,
+  "failed_images": [],
+  "device": "cuda",
+  "size": 640,
+  "mean_ms": 22.285106849315063,
+  "p95_ms": 51.455199999999834,
+  "includes": "image decoding, preprocessing, models, postprocessing and CSV write; startup/warmup excluded",
+  "timing": "wall time between consecutive results; the next image is read in parallel",
+  "hardware": "NVIDIA GeForce RTX 3060",
+  "torch": "2.7.1+cu118"
+}

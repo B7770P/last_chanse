@@ -1,0 +1,3306 @@
+{
+  "config": {
+    "data": "dataset_composite5000",
+    "split": "splits/real606.json",
+    "split_part": "train",
+    "limit": 200,
+    "ocr": "models/ocr_synth2_20261025/best.pt",
+    "det": 0.35,
+    "char": 0.4,
+    "extra_size": 960,
+    "extra_gate": "large_or_empty",
+    "length_repair": true,
+    "mask_decode": false,
+    "out": "val_errors_train_v5.json"
+  },
+  "summary": {
+    "type1a": {
+      "counts": {
+        "correct": 3
+      },
+      "median_width": {
+        "missed_no_text": null,
+        "missed_not_detected": null,
+        "correct": 112.2
+      }
+    },
+    "type1b": {
+      "counts": {
+        "correct": 153,
+        "wrong_chars_2": 2,
+        "read_with_hash": 6,
+        "wrong_chars_1": 8,
+        "unreadable_label": 11,
+        "missed_no_text": 4,
+        "wrong_chars_3+": 1,
+        "missed_not_detected": 1
+      },
+      "median_width": {
+        "missed_no_text": 39.5,
+        "missed_not_detected": 41.2,
+        "correct": 131.6
+      }
+    },
+    "other": {
+      "detected_not_output": 27,
+      "not_detected": 3,
+      "output_as_type1x": 1
+    }
+  },
+  "records": [
+    {
+      "image": "images/real/01gg6-EIkMMrLzlGzJIzLgABtV-V7NrTC4KbB9Sop2vV9JY3FB7ChiUT9UxPgZKvkpFkVloMTbabbYqj5ASwQIlQ.jpg",
+      "plate_type": "type1b",
+      "truth": "BE08678",
+      "category": "correct",
+      "pred": "BE08678 type1b",
+      "pred_conf": 0.793,
+      "width": 73.1,
+      "height": 21.2,
+      "image_w": 1162,
+      "image_h": 766,
+      "all_preds": [
+        "BE08678 type1b"
+      ]
+    },
+    {
+      "image": "images/real/10.10.09_motorcade_governor_crash_highway_010.jpg",
+      "plate_type": "other",
+      "truth": "P177778",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 229.3,
+      "height": 48.7,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/10004697054_aa0dd8f1e7_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AO12477",
+      "category": "correct",
+      "pred": "AO12477 type1b",
+      "pred_conf": 0.93,
+      "width": 161.9,
+      "height": 52.7,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AO12477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/10004698995_ce4ab129e9_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE95177",
+      "category": "correct",
+      "pred": "AE95177 type1b",
+      "pred_conf": 0.823,
+      "width": 177.0,
+      "height": 60.3,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AE95177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/10004701055_1cea8fa769_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE69077",
+      "category": "correct",
+      "pred": "AE69077 type1b",
+      "pred_conf": 0.879,
+      "width": 109.9,
+      "height": 41.0,
+      "image_w": 1612,
+      "image_h": 907,
+      "all_preds": [
+        "AE69077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/10004748726_17ac37f1d8_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE95177",
+      "category": "correct",
+      "pred": "AE95177 type1b",
+      "pred_conf": 0.724,
+      "width": 165.7,
+      "height": 67.8,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AE95177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/11153324874_5103319e58_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB93777",
+      "category": "correct",
+      "pred": "AB93777 type1b",
+      "pred_conf": 0.889,
+      "width": 143.6,
+      "height": 63.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AB93777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/11153875135_c50dd5baa1_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB98877",
+      "category": "correct",
+      "pred": "AB98877 type1b",
+      "pred_conf": 0.818,
+      "width": 131.6,
+      "height": 63.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AB98877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/11420201394_3a6a7570d3_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AC00677",
+      "category": "correct",
+      "pred": "AC00677 type1b",
+      "pred_conf": 0.87,
+      "width": 215.3,
+      "height": 75.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AC00677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/13131_20070130_158.jpg",
+      "plate_type": "type1b",
+      "truth": "AY29377",
+      "category": "correct",
+      "pred": "AY29377 type1b",
+      "pred_conf": 0.602,
+      "width": 173.2,
+      "height": 79.1,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AY29377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/15940771004_846e5f8747_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY07577",
+      "category": "correct",
+      "pred": "AY07577 type1b",
+      "pred_conf": 0.913,
+      "width": 254.3,
+      "height": 60.6,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AY07577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/15943168623_c84418b208_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY07577",
+      "category": "correct",
+      "pred": "AY07577 type1b",
+      "pred_conf": 0.928,
+      "width": 157.4,
+      "height": 56.5,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AY07577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16117702544_09c45ac48b_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AH74850",
+      "category": "correct",
+      "pred": "AH74850 type1b",
+      "pred_conf": 0.849,
+      "width": 255.2,
+      "height": 71.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AH74850 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16362042963_c0d57c4c80_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AM76486",
+      "category": "wrong_chars_2",
+      "pred": "AM68486 type1b",
+      "pred_conf": 0.837,
+      "width": 151.7,
+      "height": 49.2,
+      "image_w": 1024,
+      "image_h": 680,
+      "all_preds": [
+        "AM68486 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16375691398_ce10aa031d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY07577",
+      "category": "correct",
+      "pred": "AY07577 type1b",
+      "pred_conf": 0.834,
+      "width": 306.8,
+      "height": 121.1,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AY07577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16375887600_3f67fc3d26_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY07577",
+      "category": "correct",
+      "pred": "AY07577 type1b",
+      "pred_conf": 0.814,
+      "width": 146.7,
+      "height": 47.8,
+      "image_w": 3036,
+      "image_h": 2073,
+      "all_preds": [
+        "AY07577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16377589087_43595bb718_o.jpg",
+      "plate_type": "type1b",
+      "truth": "KK82177",
+      "category": "correct",
+      "pred": "KK82177 type1b",
+      "pred_conf": 0.569,
+      "width": 201.8,
+      "height": 68.6,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "KK82177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16552388650_059ed97e1d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE83577",
+      "category": "correct",
+      "pred": "AE83577 type1b",
+      "pred_conf": 0.804,
+      "width": 239.3,
+      "height": 79.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AE83577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16982130735_fa34035220_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AM59286",
+      "category": "read_with_hash",
+      "pred": "AM592#4 type1b",
+      "pred_conf": 0.589,
+      "width": 198.8,
+      "height": 83.7,
+      "image_w": 2048,
+      "image_h": 1360,
+      "all_preds": [
+        "AM592#4 type1b"
+      ]
+    },
+    {
+      "image": "images/real/16982361985_7ef38bd9b5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AM64186",
+      "category": "correct",
+      "pred": "AM64186 type1b",
+      "pred_conf": 0.686,
+      "width": 199.8,
+      "height": 74.3,
+      "image_w": 1024,
+      "image_h": 680,
+      "all_preds": [
+        "AM64186 type1b"
+      ]
+    },
+    {
+      "image": "images/real/19455158038_0fbaea548b_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT97577",
+      "category": "correct",
+      "pred": "AT97577 type1b",
+      "pred_conf": 0.909,
+      "width": 156.6,
+      "height": 47.3,
+      "image_w": 2560,
+      "image_h": 1920,
+      "all_preds": [
+        "AT97577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/19616998106_eb99bc1a13_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT97577",
+      "category": "correct",
+      "pred": "AT97577 type1b",
+      "pred_conf": 0.919,
+      "width": 203.4,
+      "height": 67.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT97577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/20160803_112638_August_2016_in_Moscow.jpg",
+      "plate_type": "type1b",
+      "truth": "YH23877",
+      "category": "wrong_chars_1",
+      "pred": "YH23871 type1b",
+      "pred_conf": 0.438,
+      "width": 58.0,
+      "height": 28.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "YH23871 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_display_05_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC12277",
+      "category": "correct",
+      "pred": "XC12277 type1b",
+      "pred_conf": 0.808,
+      "width": 85.0,
+      "height": 23.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "XC12277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_display_06_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC12277",
+      "category": "correct",
+      "pred": "XC12277 type1b",
+      "pred_conf": 0.903,
+      "width": 78.0,
+      "height": 44.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "XC13277 type1b",
+        "XC12277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_display_06_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC13277",
+      "category": "correct",
+      "pred": "XC13277 type1b",
+      "pred_conf": 0.664,
+      "width": 54.0,
+      "height": 29.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "XC13277 type1b",
+        "XC12277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_display_07_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC13577",
+      "category": "correct",
+      "pred": "XC13577 type1b",
+      "pred_conf": 0.84,
+      "width": 79.0,
+      "height": 23.0,
+      "image_w": 960,
+      "image_h": 617,
+      "all_preds": [
+        "XC13577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_display_42_KamAZ-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC13577",
+      "category": "correct",
+      "pred": "XC13577 type1b",
+      "pred_conf": 0.729,
+      "width": 75.0,
+      "height": 24.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "XC13577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_02_police.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 27.0,
+      "height": 9.0,
+      "image_w": 960,
+      "image_h": 598,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_03_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC12277",
+      "category": "wrong_chars_1",
+      "pred": "XC15277 type1b",
+      "pred_conf": 0.668,
+      "width": 34.0,
+      "height": 10.0,
+      "image_w": 960,
+      "image_h": 588,
+      "all_preds": [
+        "XC1#277 type1b",
+        "XC15277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_03_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC13277",
+      "category": "read_with_hash",
+      "pred": "XC1#277 type1b",
+      "pred_conf": 0.278,
+      "width": 33.0,
+      "height": 11.0,
+      "image_w": 960,
+      "image_h": 588,
+      "all_preds": [
+        "XC1#277 type1b",
+        "XC15277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_03_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 23.0,
+      "height": 7.0,
+      "image_w": 960,
+      "image_h": 588,
+      "all_preds": [
+        "XC1#277 type1b",
+        "XC15277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_04_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC12277",
+      "category": "correct",
+      "pred": "XC12277 type1b",
+      "pred_conf": 0.765,
+      "width": 64.0,
+      "height": 20.0,
+      "image_w": 960,
+      "image_h": 588,
+      "all_preds": [
+        "XC12277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_04_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC13577",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.901,
+      "width": 35.0,
+      "height": 12.0,
+      "image_w": 960,
+      "image_h": 588,
+      "all_preds": [
+        "XC12277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2026-06-27_Moscow_electric_vehicle_parade,_riding_05_Kamaz-52222.jpg",
+      "plate_type": "type1b",
+      "truth": "XC13577",
+      "category": "correct",
+      "pred": "XC13577 type1b",
+      "pred_conf": 0.794,
+      "width": 85.5,
+      "height": 25.2,
+      "image_w": 960,
+      "image_h": 654,
+      "all_preds": [
+        "XC13577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/22487840534_2372163e42_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AK71677",
+      "category": "correct",
+      "pred": "AK71677 type1b",
+      "pred_conf": 0.801,
+      "width": 167.0,
+      "height": 61.2,
+      "image_w": 3061,
+      "image_h": 1723,
+      "all_preds": [
+        "AK71677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2277793_five.webp.jpg",
+      "plate_type": "type1b",
+      "truth": "KC61777",
+      "category": "correct",
+      "pred": "KC61777 type1b",
+      "pred_conf": 0.846,
+      "width": 145.0,
+      "height": 76.0,
+      "image_w": 820,
+      "image_h": 550,
+      "all_preds": [
+        "KC61677 type1b",
+        "KC61777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2277793_five.webp.jpg",
+      "plate_type": "type1b",
+      "truth": "KC61677",
+      "category": "correct",
+      "pred": "KC61677 type1b",
+      "pred_conf": 0.879,
+      "width": 96.0,
+      "height": 50.0,
+      "image_w": 820,
+      "image_h": 550,
+      "all_preds": [
+        "KC61677 type1b",
+        "KC61777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/25720504032_e1440f38f5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT76838",
+      "category": "correct",
+      "pred": "AT76838 type1b",
+      "pred_conf": 0.411,
+      "width": 205.2,
+      "height": 60.0,
+      "image_w": 3270,
+      "image_h": 2052,
+      "all_preds": [
+        "AT76838 type1b"
+      ]
+    },
+    {
+      "image": "images/real/25815399106_094902c6e1_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AC73538",
+      "category": "wrong_chars_1",
+      "pred": "AC73578 type1b",
+      "pred_conf": 0.347,
+      "width": 110.1,
+      "height": 38.7,
+      "image_w": 3273,
+      "image_h": 1841,
+      "all_preds": [
+        "AC73578 type1b"
+      ]
+    },
+    {
+      "image": "images/real/25841437855_d4271ab9e2_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT76838",
+      "category": "correct",
+      "pred": "AT76838 type1b",
+      "pred_conf": 0.688,
+      "width": 247.2,
+      "height": 55.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT76838 type1b"
+      ]
+    },
+    {
+      "image": "images/real/26122899632_7c80c903b7_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AH60238",
+      "category": "correct",
+      "pred": "AH60238 type1b",
+      "pred_conf": 0.794,
+      "width": 283.1,
+      "height": 79.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AH60238 type1b"
+      ]
+    },
+    {
+      "image": "images/real/295606.jpg",
+      "plate_type": "type1b",
+      "truth": "KA66750",
+      "category": "correct",
+      "pred": "KA66750 type1b",
+      "pred_conf": 0.77,
+      "width": 75.1,
+      "height": 19.7,
+      "image_w": 1200,
+      "image_h": 800,
+      "all_preds": [
+        "KA66750 type1b"
+      ]
+    },
+    {
+      "image": "images/real/2eU9go1Q5dsXD3yYkZoxegy9ux_MgbgjR0sbo90r6k_LKyCxoQfyT0ygeR6LTvq0PQ-hmvaHrY8-vKbLWJFK-GbCzxi5Ug.jpg",
+      "plate_type": "type1b",
+      "truth": "EB72599",
+      "category": "correct",
+      "pred": "EB72599 type1b",
+      "pred_conf": 0.912,
+      "width": 53.8,
+      "height": 18.5,
+      "image_w": 1499,
+      "image_h": 1000,
+      "all_preds": [
+        "EB72599 type1b"
+      ]
+    },
+    {
+      "image": "images/real/31340029213_13ab13f379_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EO32077",
+      "category": "correct",
+      "pred": "EO32077 type1b",
+      "pred_conf": 0.697,
+      "width": 138.2,
+      "height": 88.0,
+      "image_w": 4608,
+      "image_h": 2592,
+      "all_preds": [
+        "EO32077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/336583_original.jpg",
+      "plate_type": "type1b",
+      "truth": "HT39077",
+      "category": "correct",
+      "pred": "HT39077 type1b",
+      "pred_conf": 0.809,
+      "width": 139.8,
+      "height": 35.4,
+      "image_w": 1920,
+      "image_h": 1280,
+      "all_preds": [
+        "HT39077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/3776163995_dd79b4395f_n.jpg",
+      "plate_type": "other",
+      "truth": "O35222#",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 34.0,
+      "height": 9.0,
+      "image_w": 320,
+      "image_h": 240,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/3776398404_10fb24848d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AA43504",
+      "category": "correct",
+      "pred": "AA43504 type1b",
+      "pred_conf": 0.7,
+      "width": 187.0,
+      "height": 55.3,
+      "image_w": 2288,
+      "image_h": 1712,
+      "all_preds": [
+        "AA43504 type1b"
+      ]
+    },
+    {
+      "image": "images/real/3916682066_e82abf8490_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT12177",
+      "category": "correct",
+      "pred": "AT12177 type1b",
+      "pred_conf": 0.692,
+      "width": 116.0,
+      "height": 35.9,
+      "image_w": 2203,
+      "image_h": 1371,
+      "all_preds": [
+        "AT12177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/4114518411_88b208a6f9_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB36869",
+      "category": "correct",
+      "pred": "AB36869 type1b",
+      "pred_conf": 0.87,
+      "width": 60.1,
+      "height": 19.0,
+      "image_w": 1024,
+      "image_h": 685,
+      "all_preds": [
+        "AB36869 type1b"
+      ]
+    },
+    {
+      "image": "images/real/4114519191_668a04d733_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB37364",
+      "category": "wrong_chars_3+",
+      "pred": "AB53732 type1b",
+      "pred_conf": 0.735,
+      "width": 49.5,
+      "height": 17.9,
+      "image_w": 1024,
+      "image_h": 685,
+      "all_preds": [
+        "AB53732 type1b"
+      ]
+    },
+    {
+      "image": "images/real/4115287166_a809fdb8a7_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AB37364",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.872,
+      "width": 40.0,
+      "height": 17.9,
+      "image_w": 1024,
+      "image_h": 685,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/440295.jpg",
+      "plate_type": "type1b",
+      "truth": "YA30577",
+      "category": "correct",
+      "pred": "YA30577 type1b",
+      "pred_conf": 0.889,
+      "width": 68.3,
+      "height": 17.8,
+      "image_w": 1400,
+      "image_h": 888,
+      "all_preds": [
+        "YA30577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/440480.jpg",
+      "plate_type": "type1b",
+      "truth": "MO57477",
+      "category": "correct",
+      "pred": "MO57477 type1b",
+      "pred_conf": 0.812,
+      "width": 73.3,
+      "height": 25.3,
+      "image_w": 1400,
+      "image_h": 866,
+      "all_preds": [
+        "MO57477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/442532.jpg",
+      "plate_type": "type1b",
+      "truth": "PA05377",
+      "category": "correct",
+      "pred": "PA05377 type1b",
+      "pred_conf": 0.735,
+      "width": 62.3,
+      "height": 20.8,
+      "image_w": 1200,
+      "image_h": 750,
+      "all_preds": [
+        "PA05377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/442532.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 21.9,
+      "height": 6.9,
+      "image_w": 1200,
+      "image_h": 750,
+      "all_preds": [
+        "PA05377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/443778.jpg",
+      "plate_type": "type1b",
+      "truth": "HT18877",
+      "category": "correct",
+      "pred": "HT18877 type1b",
+      "pred_conf": 0.787,
+      "width": 72.1,
+      "height": 18.6,
+      "image_w": 1200,
+      "image_h": 756,
+      "all_preds": [
+        "HT18877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/444258.jpg",
+      "plate_type": "type1b",
+      "truth": "PA20477",
+      "category": "correct",
+      "pred": "PA20477 type1b",
+      "pred_conf": 0.641,
+      "width": 63.7,
+      "height": 22.4,
+      "image_w": 1200,
+      "image_h": 767,
+      "all_preds": [
+        "PA20477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/444259.jpg",
+      "plate_type": "type1b",
+      "truth": "OO14077",
+      "category": "correct",
+      "pred": "OO14077 type1b",
+      "pred_conf": 0.838,
+      "width": 68.0,
+      "height": 16.1,
+      "image_w": 1200,
+      "image_h": 749,
+      "all_preds": [
+        "OO14077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/444260.jpg",
+      "plate_type": "type1b",
+      "truth": "PM24577",
+      "category": "wrong_chars_1",
+      "pred": "EM24577 type1b",
+      "pred_conf": 0.869,
+      "width": 40.2,
+      "height": 23.6,
+      "image_w": 1200,
+      "image_h": 768,
+      "all_preds": [
+        "EM24577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/444275.jpg",
+      "plate_type": "type1b",
+      "truth": "AX42199",
+      "category": "correct",
+      "pred": "AX42199 type1b",
+      "pred_conf": 0.911,
+      "width": 67.7,
+      "height": 24.8,
+      "image_w": 1200,
+      "image_h": 733,
+      "all_preds": [
+        "AX42199 type1b"
+      ]
+    },
+    {
+      "image": "images/real/44720752125_1b27556c45_o.jpg",
+      "plate_type": "type1b",
+      "truth": "PT07277",
+      "category": "wrong_chars_1",
+      "pred": "PT03277 type1b",
+      "pred_conf": 0.631,
+      "width": 645.4,
+      "height": 308.7,
+      "image_w": 5472,
+      "image_h": 3648,
+      "all_preds": [
+        "PT03277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/4713534295_f87426f8c5_o.jpg",
+      "plate_type": "other",
+      "truth": "3806AT50",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 294.9,
+      "height": 143.8,
+      "image_w": 3692,
+      "image_h": 2396,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/4713570237_b95da57a66_o.jpg",
+      "plate_type": "other",
+      "truth": "4490AT50",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 360.7,
+      "height": 80.5,
+      "image_w": 2812,
+      "image_h": 2276,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/4713570255_0bbe48c385_o.jpg",
+      "plate_type": "other",
+      "truth": "A350999",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 461.5,
+      "height": 131.9,
+      "image_w": 2496,
+      "image_h": 1948,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/4714185530_a994b2027c_o.jpg",
+      "plate_type": "other",
+      "truth": "2288MP99",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 583.8,
+      "height": 151.7,
+      "image_w": 3136,
+      "image_h": 2144,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/5015289967_80a95d133d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT13152",
+      "category": "correct",
+      "pred": "AT13152 type1b",
+      "pred_conf": 0.903,
+      "width": 350.9,
+      "height": 111.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT13152 type1b"
+      ]
+    },
+    {
+      "image": "images/real/50172280121_9dbef070a0_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EY08150",
+      "category": "correct",
+      "pred": "EY08150 type1b",
+      "pred_conf": 0.909,
+      "width": 225.1,
+      "height": 76.4,
+      "image_w": 4362,
+      "image_h": 2613,
+      "all_preds": [
+        "EY08150 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063499168_9fd5523b6e_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT04777",
+      "category": "correct",
+      "pred": "AT04777 type1b",
+      "pred_conf": 0.783,
+      "width": 207.4,
+      "height": 75.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT04777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063527123_2fd30affb5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE69077",
+      "category": "correct",
+      "pred": "AE69077 type1b",
+      "pred_conf": 0.823,
+      "width": 141.8,
+      "height": 65.0,
+      "image_w": 2560,
+      "image_h": 1920,
+      "all_preds": [
+        "AE69077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063541258_208a62af07_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT27277",
+      "category": "correct",
+      "pred": "AT27277 type1b",
+      "pred_conf": 0.913,
+      "width": 422.7,
+      "height": 107.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "X00#M#1## type1",
+        "AT27277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063542868_8765e4eb54_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT97977",
+      "category": "correct",
+      "pred": "AT97977 type1b",
+      "pred_conf": 0.853,
+      "width": 275.2,
+      "height": 87.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT97977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063615218_08f842acb3_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE80477",
+      "category": "correct",
+      "pred": "AE80477 type1b",
+      "pred_conf": 0.886,
+      "width": 303.1,
+      "height": 83.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AE80477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063616213_3cef1cb9b6_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BC71577",
+      "category": "correct",
+      "pred": "BC71577 type1b",
+      "pred_conf": 0.949,
+      "width": 215.3,
+      "height": 71.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "BC71577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063620948_6d6d96cc0b_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT98977",
+      "category": "correct",
+      "pred": "AT98977 type1b",
+      "pred_conf": 0.861,
+      "width": 295.1,
+      "height": 79.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT98977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063651703_23602c5077_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE92177",
+      "category": "correct",
+      "pred": "AE92177 type1b",
+      "pred_conf": 0.878,
+      "width": 234.1,
+      "height": 76.7,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AE92177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063653073_63f2be094d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE92177",
+      "category": "correct",
+      "pred": "AE92177 type1b",
+      "pred_conf": 0.732,
+      "width": 209.9,
+      "height": 109.0,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "AE92177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063711063_0c66bffd6d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AX81977",
+      "category": "correct",
+      "pred": "AX81977 type1b",
+      "pred_conf": 0.949,
+      "width": 278.7,
+      "height": 97.9,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AX81977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063845213_b8656aba5c_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AO85977",
+      "category": "correct",
+      "pred": "AO85977 type1b",
+      "pred_conf": 0.902,
+      "width": 215.3,
+      "height": 83.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AO85977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51063854473_23777fd7aa_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AP40777",
+      "category": "correct",
+      "pred": "AP40777 type1b",
+      "pred_conf": 0.871,
+      "width": 251.2,
+      "height": 87.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AP40777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064207076_a0d5fc2a74_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT04777",
+      "category": "correct",
+      "pred": "AT04777 type1b",
+      "pred_conf": 0.709,
+      "width": 183.4,
+      "height": 91.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT04777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064234191_ec75266375_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE69077",
+      "category": "correct",
+      "pred": "AE69077 type1b",
+      "pred_conf": 0.841,
+      "width": 203.8,
+      "height": 62.0,
+      "image_w": 2560,
+      "image_h": 1920,
+      "all_preds": [
+        "AE69077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064249661_3a5d39f60d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT97977",
+      "category": "correct",
+      "pred": "AT97977 type1b",
+      "pred_conf": 0.637,
+      "width": 331.0,
+      "height": 131.6,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AT97977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064295857_881264a9da_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE95177",
+      "category": "correct",
+      "pred": "AE95177 type1b",
+      "pred_conf": 0.652,
+      "width": 237.3,
+      "height": 79.1,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AE95177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064325172_7e382054c2_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE69077",
+      "category": "correct",
+      "pred": "AE69077 type1b",
+      "pred_conf": 0.815,
+      "width": 233.5,
+      "height": 94.2,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "AE69077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064353017_603181d21f_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE67277",
+      "category": "correct",
+      "pred": "AE67277 type1b",
+      "pred_conf": 0.861,
+      "width": 219.3,
+      "height": 67.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AE67277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064383141_af01ddf037_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE88077",
+      "category": "correct",
+      "pred": "AE88077 type1b",
+      "pred_conf": 0.938,
+      "width": 308.8,
+      "height": 165.7,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "BB#8307 type1b",
+        "AE88077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064383141_af01ddf037_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BE83077",
+      "category": "read_with_hash",
+      "pred": "BB#8307 type1b",
+      "pred_conf": 0.651,
+      "width": 146.9,
+      "height": 71.6,
+      "image_w": 3264,
+      "image_h": 2448,
+      "all_preds": [
+        "BB#8307 type1b",
+        "AE88077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064412761_47225625ed_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BE76377",
+      "category": "correct",
+      "pred": "BE76377 type1b",
+      "pred_conf": 0.918,
+      "width": 391.6,
+      "height": 133.2,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "BE76377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064423322_9b79ebb7a4_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY11377",
+      "category": "correct",
+      "pred": "AY11377 type1b",
+      "pred_conf": 0.726,
+      "width": 175.5,
+      "height": 71.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AY11377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064488846_16fd8348d9_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EO89477",
+      "category": "correct",
+      "pred": "EO89477 type1b",
+      "pred_conf": 0.742,
+      "width": 266.4,
+      "height": 88.8,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "EO89477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064505672_179af2e43c_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BE76377",
+      "category": "correct",
+      "pred": "BE76377 type1b",
+      "pred_conf": 0.873,
+      "width": 314.9,
+      "height": 100.9,
+      "image_w": 3936,
+      "image_h": 2624,
+      "all_preds": [
+        "BE76377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064528381_b742ef5fd7_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BX16177",
+      "category": "correct",
+      "pred": "BX16177 type1b",
+      "pred_conf": 0.913,
+      "width": 227.8,
+      "height": 70.1,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "BX16177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064593787_295875e620_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY22977",
+      "category": "correct",
+      "pred": "AY22977 type1b",
+      "pred_conf": 0.713,
+      "width": 210.3,
+      "height": 61.3,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "AY22977 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064624797_d5f70e2ff0_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BE78777",
+      "category": "correct",
+      "pred": "BE78777 type1b",
+      "pred_conf": 0.778,
+      "width": 235.3,
+      "height": 75.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AX06677 type1b",
+        "BE78777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064624797_d5f70e2ff0_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AX06677",
+      "category": "correct",
+      "pred": "AX06677 type1b",
+      "pred_conf": 0.405,
+      "width": 195.4,
+      "height": 63.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AX06677 type1b",
+        "BE78777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064681262_7e042655b9_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AH88877",
+      "category": "correct",
+      "pred": "AH88877 type1b",
+      "pred_conf": 0.728,
+      "width": 223.3,
+      "height": 83.7,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AH88877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064693552_86f78c5e3a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AE44177",
+      "category": "correct",
+      "pred": "AE44177 type1b",
+      "pred_conf": 0.918,
+      "width": 259.2,
+      "height": 75.8,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AE44177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/51064693552_86f78c5e3a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 103.7,
+      "height": 27.9,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "AE44177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/52903378178_56268501cb_o.jpg",
+      "plate_type": "type1b",
+      "truth": "OP09677",
+      "category": "correct",
+      "pred": "OP09677 type1b",
+      "pred_conf": 0.944,
+      "width": 176.8,
+      "height": 70.7,
+      "image_w": 2582,
+      "image_h": 1768,
+      "all_preds": [
+        "OP09677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/53207589656_ed6a3f2fe3_o.jpg",
+      "plate_type": "type1b",
+      "truth": "HT32577",
+      "category": "correct",
+      "pred": "HT32577 type1b",
+      "pred_conf": 0.804,
+      "width": 232.6,
+      "height": 110.8,
+      "image_w": 3679,
+      "image_h": 2400,
+      "all_preds": [
+        "HT32577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/53207590426_7e34c07174_o.jpg",
+      "plate_type": "type1b",
+      "truth": "PA03477",
+      "category": "correct",
+      "pred": "PA03477 type1b",
+      "pred_conf": 0.845,
+      "width": 292.9,
+      "height": 155.6,
+      "image_w": 4445,
+      "image_h": 2975,
+      "all_preds": [
+        "PA03477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/53207972884_397714c8f3_o.jpg",
+      "plate_type": "type1b",
+      "truth": "HT46577",
+      "category": "correct",
+      "pred": "HT46577 type1b",
+      "pred_conf": 0.878,
+      "width": 139.6,
+      "height": 52.0,
+      "image_w": 2865,
+      "image_h": 1779,
+      "all_preds": [
+        "HT46577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/54585558614_fc06e24366_o.jpg",
+      "plate_type": "type1b",
+      "truth": "OK22377",
+      "category": "correct",
+      "pred": "OK22377 type1b",
+      "pred_conf": 0.678,
+      "width": 274.2,
+      "height": 109.7,
+      "image_w": 4320,
+      "image_h": 3240,
+      "all_preds": [
+        "OK22377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/54605011590_43779179c3_o.jpg",
+      "plate_type": "type1b",
+      "truth": "YA48577",
+      "category": "correct",
+      "pred": "YA48577 type1b",
+      "pred_conf": 0.881,
+      "width": 324.0,
+      "height": 89.7,
+      "image_w": 4320,
+      "image_h": 3240,
+      "all_preds": [
+        "YA48577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/54646570281_70a0de009d_o.jpg",
+      "plate_type": "type1b",
+      "truth": "OT63577",
+      "category": "read_with_hash",
+      "pred": "O#63547 type1b",
+      "pred_conf": 0.411,
+      "width": 339.0,
+      "height": 115.6,
+      "image_w": 3872,
+      "image_h": 2592,
+      "all_preds": [
+        "O#63547 type1b"
+      ]
+    },
+    {
+      "image": "images/real/55319648017_c3b12b2d4a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT27877",
+      "category": "correct",
+      "pred": "AT27877 type1b",
+      "pred_conf": 0.575,
+      "width": 262.9,
+      "height": 61.3,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "AT27877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/55319648062_a28583135f_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT27877",
+      "category": "correct",
+      "pred": "AT27877 type1b",
+      "pred_conf": 0.92,
+      "width": 306.7,
+      "height": 135.8,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "AT27877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/6825167876_2ca2390a8f_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EA28577",
+      "category": "correct",
+      "pred": "EA28577 type1b",
+      "pred_conf": 0.926,
+      "width": 121.0,
+      "height": 48.0,
+      "image_w": 900,
+      "image_h": 599,
+      "all_preds": [
+        "EA28577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7083406015_2ffb64246e_o.jpg",
+      "plate_type": "type1b",
+      "truth": "BB61177",
+      "category": "correct",
+      "pred": "BB61177 type1b",
+      "pred_conf": 0.914,
+      "width": 260.5,
+      "height": 85.1,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "BB61177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7083408433_d11223da3a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AH75677",
+      "category": "correct",
+      "pred": "AH75677 type1b",
+      "pred_conf": 0.884,
+      "width": 228.6,
+      "height": 69.1,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "AH75677 type1b",
+        "AH43077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7083408433_d11223da3a_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AH43077",
+      "category": "correct",
+      "pred": "AH43077 type1b",
+      "pred_conf": 0.643,
+      "width": 292.4,
+      "height": 90.4,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "AH75677 type1b",
+        "AH43077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7088504613_29dc3c1a8b_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AP26577",
+      "category": "correct",
+      "pred": "AP26577 type1b",
+      "pred_conf": 0.907,
+      "width": 159.5,
+      "height": 61.1,
+      "image_w": 2304,
+      "image_h": 1728,
+      "all_preds": [
+        "AP26577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7223192018_ff4619c667_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AH06377",
+      "category": "correct",
+      "pred": "AH06377 type1b",
+      "pred_conf": 0.849,
+      "width": 287.1,
+      "height": 85.1,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "AH06377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7223192018_ff4619c667_o.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 143.6,
+      "height": 58.5,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "AH06377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7223192018_ff4619c667_o.jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 117.0,
+      "height": 58.5,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "AH06377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7815818552_60f674e288_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AK51152",
+      "category": "correct",
+      "pred": "AK51152 type1b",
+      "pred_conf": 0.616,
+      "width": 108.8,
+      "height": 37.2,
+      "image_w": 2615,
+      "image_h": 1725,
+      "all_preds": [
+        "AK51152 type1b"
+      ]
+    },
+    {
+      "image": "images/real/7IfveuP-_UgGDy13ZluzcMHjewgvlPuJyx3_dvR_tThq8ZY5veaEieUyGKK6Tbcg_lPf9BIQBYR3Lf1056tOf8nE.jpg",
+      "plate_type": "type1b",
+      "truth": "AB44567",
+      "category": "correct",
+      "pred": "AB44567 type1b",
+      "pred_conf": 0.848,
+      "width": 57.9,
+      "height": 15.4,
+      "image_w": 1024,
+      "image_h": 768,
+      "all_preds": [
+        "AB44567 type1b"
+      ]
+    },
+    {
+      "image": "images/real/813815.jpg",
+      "plate_type": "type1b",
+      "truth": "PT31677",
+      "category": "correct",
+      "pred": "PT31677 type1b",
+      "pred_conf": 0.879,
+      "width": 65.5,
+      "height": 21.8,
+      "image_w": 1500,
+      "image_h": 843,
+      "all_preds": [
+        "PT31677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/8479006347_e6dcf941e5_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AX08277",
+      "category": "correct",
+      "pred": "AX08277 type1b",
+      "pred_conf": 0.85,
+      "width": 186.1,
+      "height": 63.8,
+      "image_w": 5184,
+      "image_h": 3456,
+      "all_preds": [
+        "AX08277 type1b"
+      ]
+    },
+    {
+      "image": "images/real/9423022009_0bc9a8edef_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AT24377",
+      "category": "correct",
+      "pred": "AT24377 type1b",
+      "pred_conf": 0.894,
+      "width": 262.9,
+      "height": 96.4,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "AT24377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/9475734196_326b4ee487_o.jpg",
+      "plate_type": "type1b",
+      "truth": "AY29077",
+      "category": "correct",
+      "pred": "AY29077 type1b",
+      "pred_conf": 0.721,
+      "width": 245.4,
+      "height": 78.9,
+      "image_w": 4288,
+      "image_h": 2848,
+      "all_preds": [
+        "AY29077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/9482196334_2db10bec14_o.jpg",
+      "plate_type": "type1b",
+      "truth": "EM56677",
+      "category": "correct",
+      "pred": "EM56677 type1b",
+      "pred_conf": 0.674,
+      "width": 163.8,
+      "height": 66.2,
+      "image_w": 3072,
+      "image_h": 2048,
+      "all_preds": [
+        "EM56677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/AQABAvHMY6SXte64TLXyFrh7gbPSFpfN0oAPgmE8CO8LmCmtTOdX0enyp1EKQLMsrLnPRcncqYDQqe2zBRvwkXUAUg0.webp.jpg",
+      "plate_type": "type1b",
+      "truth": "OT71577",
+      "category": "correct",
+      "pred": "OT71577 type1b",
+      "pred_conf": 0.882,
+      "width": 82.0,
+      "height": 24.0,
+      "image_w": 860,
+      "image_h": 484,
+      "all_preds": [
+        "OT71577 type1b",
+        "C598HK797 type1"
+      ]
+    },
+    {
+      "image": "images/real/A_bus_in_Kronstadt.jpg",
+      "plate_type": "type1b",
+      "truth": "AH16378",
+      "category": "correct",
+      "pred": "AH16378 type1b",
+      "pred_conf": 0.844,
+      "width": 141.8,
+      "height": 47.3,
+      "image_w": 960,
+      "image_h": 1280,
+      "all_preds": [
+        "AH16378 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Architecture_of_Ekaterinburg,_Russia._-_panoramio_(319).jpg",
+      "plate_type": "type1b",
+      "truth": "AP10566",
+      "category": "correct",
+      "pred": "AP10566 type1b",
+      "pred_conf": 0.784,
+      "width": 53.0,
+      "height": 18.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "AP10566 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Architecture_of_Ekaterinburg,_Russia._-_panoramio_(323).jpg",
+      "plate_type": "type1b",
+      "truth": "AP10566",
+      "category": "correct",
+      "pred": "AP10566 type1b",
+      "pred_conf": 0.871,
+      "width": 45.0,
+      "height": 19.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "AP10566 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Architecture_of_Ekaterinburg,_Russia._-_panoramio_(323).jpg",
+      "plate_type": "type1b",
+      "truth": "#######",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 29.0,
+      "height": 13.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "AP10566 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Asia_buses_in_Irkutsk,_Russia.jpg",
+      "plate_type": "type1b",
+      "truth": "BK80738",
+      "category": "read_with_hash",
+      "pred": "BK807#8 type1b",
+      "pred_conf": 0.553,
+      "width": 72.0,
+      "height": 47.6,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "BK807#8 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Bus_LiAZ_5292-60_in_Protvino.jpg",
+      "plate_type": "type1b",
+      "truth": "EP18150",
+      "category": "correct",
+      "pred": "EP18150 type1b",
+      "pred_conf": 0.74,
+      "width": 58.0,
+      "height": 29.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "EP18150 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Carrus_fifty_scania_k113tlb.jpg",
+      "plate_type": "type1b",
+      "truth": "AE00735",
+      "category": "correct",
+      "pred": "AE00735 type1b",
+      "pred_conf": 0.848,
+      "width": 69.0,
+      "height": 25.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "AE00735 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Ford_Focus_-_milicja.jpg",
+      "plate_type": "other",
+      "truth": "Y102299",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 119.6,
+      "height": 28.8,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/GAZelle-and-Isuzu-Bogdan.jpg",
+      "plate_type": "type1b",
+      "truth": "BA32777",
+      "category": "correct",
+      "pred": "BA32777 type1b",
+      "pred_conf": 0.887,
+      "width": 51.0,
+      "height": 12.0,
+      "image_w": 960,
+      "image_h": 585,
+      "all_preds": [
+        "BA32777 type1b",
+        "BK77777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/GAZelle-and-Isuzu-Bogdan.jpg",
+      "plate_type": "type1b",
+      "truth": "BK77777",
+      "category": "correct",
+      "pred": "BK77777 type1b",
+      "pred_conf": 0.51,
+      "width": 51.0,
+      "height": 18.0,
+      "image_w": 960,
+      "image_h": 585,
+      "all_preds": [
+        "BA32777 type1b",
+        "BK77777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Io85GeWDKCRG8ycbA1KgLRoayKFcIhbKNXhouFZLR2H71LCzOZcMjTOf0miJm29P6QpTrRxHjo_0A58rFrcbdP-a.jpg",
+      "plate_type": "type1b",
+      "truth": "YX12677",
+      "category": "correct",
+      "pred": "YX12677 type1b",
+      "pred_conf": 0.931,
+      "width": 58.0,
+      "height": 16.0,
+      "image_w": 640,
+      "image_h": 480,
+      "all_preds": [
+        "YX12677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Irkutsk_bus_ВО_685_38_(32598196901).jpg",
+      "plate_type": "type1b",
+      "truth": "BO68538",
+      "category": "correct",
+      "pred": "BO68538 type1b",
+      "pred_conf": 0.624,
+      "width": 48.0,
+      "height": 15.0,
+      "image_w": 960,
+      "image_h": 643,
+      "all_preds": [
+        "BO68538 type1b"
+      ]
+    },
+    {
+      "image": "images/real/J2Lg71MhBe0nDjUuXjcUfAXwOuSV3YYMa_Tj45YfoAOXJ8ANwANE7ILPZiIVpuqUFRkCJhJ2E5qNWT-Pg1zgV6Yv.jpg",
+      "plate_type": "other",
+      "truth": "3341AH02",
+      "category": "not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 86.1,
+      "height": 60.5,
+      "image_w": 2560,
+      "image_h": 1440,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/J2Lg71MhBe0nDjUuXjcUfAXwOuSV3YYMa_Tj45YfoAOXJ8ANwANE7ILPZiIVpuqUFRkCJhJ2E5qNWT-Pg1zgV6Yv.jpg",
+      "plate_type": "other",
+      "truth": "08##AO02",
+      "category": "not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 55.9,
+      "height": 51.2,
+      "image_w": 2560,
+      "image_h": 1440,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Lada_Priora_in_Military_Vehicles_Inspection_(VAI)_service.jpg",
+      "plate_type": "other",
+      "truth": "2276MP99",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 143.0,
+      "height": 42.0,
+      "image_w": 960,
+      "image_h": 649,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/LiAZ-6274_on_line_T74_in_Moscow_2019.jpg",
+      "plate_type": "type1b",
+      "truth": "OP51577",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.812,
+      "width": 39.0,
+      "height": 20.0,
+      "image_w": 960,
+      "image_h": 480,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Lydkhu2MwlMOq8Wau1O1Dd0PTNlghQzX1o_PeI4g0hD7jS2Ov-7wjgbiYlox8VcbjAXUDhMZG_VNPt5ZZpyNm30W.jpg",
+      "plate_type": "type1b",
+      "truth": "KT80223",
+      "category": "wrong_chars_2",
+      "pred": "KT80231 type1b",
+      "pred_conf": 0.786,
+      "width": 76.8,
+      "height": 21.3,
+      "image_w": 1024,
+      "image_h": 768,
+      "all_preds": [
+        "KT80231 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Mercedes-Benz_bus_in_Kaliningrad.jpg",
+      "plate_type": "type1b",
+      "truth": "AA86839",
+      "category": "correct",
+      "pred": "AA86839 type1b",
+      "pred_conf": 0.876,
+      "width": 263.2,
+      "height": 91.7,
+      "image_w": 1944,
+      "image_h": 2592,
+      "all_preds": [
+        "AA86839 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_1st_Kadashevsky_Lane_(1).jpg",
+      "plate_type": "type1b",
+      "truth": "KC68077",
+      "category": "correct",
+      "pred": "KC68077 type1b",
+      "pred_conf": 0.457,
+      "width": 31.0,
+      "height": 11.0,
+      "image_w": 960,
+      "image_h": 641,
+      "all_preds": [
+        "KC68077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Gazelle_Next_in_'Social_Taxi'_livery,_June_2025_01.jpg",
+      "plate_type": "type1b",
+      "truth": "PT75477",
+      "category": "correct",
+      "pred": "PT75477 type1b",
+      "pred_conf": 0.853,
+      "width": 71.0,
+      "height": 25.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "PT75477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Geely_Atlas_Pro_taxi,_Aug_2025_03.jpg",
+      "plate_type": "type1b",
+      "truth": "HE49877",
+      "category": "correct",
+      "pred": "HE49877 type1b",
+      "pred_conf": 0.916,
+      "width": 95.0,
+      "height": 33.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "HE49877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Kia_K5_taxi,_2022-05-15.jpg",
+      "plate_type": "type1b",
+      "truth": "MP00577",
+      "category": "correct",
+      "pred": "MP00577 type1b",
+      "pred_conf": 0.792,
+      "width": 84.0,
+      "height": 27.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "MP00577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Kia_K5_taxi,_May_2026_01.jpg",
+      "plate_type": "type1b",
+      "truth": "YY75777",
+      "category": "correct",
+      "pred": "YY75777 type1b",
+      "pred_conf": 0.791,
+      "width": 130.0,
+      "height": 36.0,
+      "image_w": 960,
+      "image_h": 540,
+      "all_preds": [
+        "YY75777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Kievsky_Terminal_square,_bus_station,_June_2025_09.jpg",
+      "plate_type": "type1b",
+      "truth": "OT28377",
+      "category": "correct",
+      "pred": "OT28377 type1b",
+      "pred_conf": 0.912,
+      "width": 39.0,
+      "height": 12.0,
+      "image_w": 960,
+      "image_h": 540,
+      "all_preds": [
+        "XO31677 type1b",
+        "OT28377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Kievsky_Terminal_square,_bus_station,_June_2025_09.jpg",
+      "plate_type": "type1b",
+      "truth": "XO31677",
+      "category": "correct",
+      "pred": "XO31677 type1b",
+      "pred_conf": 0.59,
+      "width": 32.0,
+      "height": 13.0,
+      "image_w": 960,
+      "image_h": 540,
+      "all_preds": [
+        "XO31677 type1b",
+        "OT28377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Kievsky_Terminal_square,_bus_station,_June_2025_11.jpg",
+      "plate_type": "type1b",
+      "truth": "OT28377",
+      "category": "correct",
+      "pred": "OT28377 type1b",
+      "pred_conf": 0.914,
+      "width": 58.7,
+      "height": 18.8,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "OT28377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Kievsky_Terminal_square,_bus_station,_Sept_2026_02.jpg",
+      "plate_type": "type1b",
+      "truth": "CB53877",
+      "category": "correct",
+      "pred": "CB53877 type1b",
+      "pred_conf": 0.532,
+      "width": 64.0,
+      "height": 21.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "CB53877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Mercedes-Benz_Sprinter_516CDI_city_hall_bus,_Sept_2026_01.jpg",
+      "plate_type": "type1b",
+      "truth": "MX90577",
+      "category": "correct",
+      "pred": "MX90577 type1b",
+      "pred_conf": 0.844,
+      "width": 56.0,
+      "height": 24.0,
+      "image_w": 960,
+      "image_h": 629,
+      "all_preds": [
+        "MX90577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Mercedes-Benz_Sprinter_516CDI_city_hall_bus,_Sept_2026_02.jpg",
+      "plate_type": "type1b",
+      "truth": "MX90577",
+      "category": "correct",
+      "pred": "MX90577 type1b",
+      "pred_conf": 0.822,
+      "width": 58.0,
+      "height": 23.0,
+      "image_w": 960,
+      "image_h": 606,
+      "all_preds": [
+        "MX90577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_Porsche_718_Boxster_red,_Sept_2025_03.jpg",
+      "plate_type": "type1b",
+      "truth": "BO91999",
+      "category": "missed_no_text",
+      "pred": "<нет текста> type1b",
+      "pred_conf": 0.775,
+      "width": 107.0,
+      "height": 30.0,
+      "image_w": 960,
+      "image_h": 582,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Moscow,_UMO_5_taxi,_Apr_2026_03.jpg",
+      "plate_type": "type1b",
+      "truth": "EB83799",
+      "category": "correct",
+      "pred": "EB83799 type1b",
+      "pred_conf": 0.871,
+      "width": 78.0,
+      "height": 29.0,
+      "image_w": 960,
+      "image_h": 610,
+      "all_preds": [
+        "EB83799 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_metro_Sokol_bus_station,_July_2026_10_Kamaz-52222_route_100.jpg",
+      "plate_type": "type1b",
+      "truth": "YX81577",
+      "category": "correct",
+      "pred": "YX81577 type1b",
+      "pred_conf": 0.904,
+      "width": 78.0,
+      "height": 23.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "E#41777 type1b",
+        "YX81577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow,_metro_Sokol_bus_station,_July_2026_10_Kamaz-52222_route_100.jpg",
+      "plate_type": "type1b",
+      "truth": "#####77",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 38.0,
+      "height": 14.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "E#41777 type1b",
+        "YX81577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow_bus_13114_2008-03_1205071050_Bus_terminus_Kuryanovo_Ikarus_280.JPG",
+      "plate_type": "type1b",
+      "truth": "AE87877",
+      "category": "correct",
+      "pred": "AE87877 type1b",
+      "pred_conf": 0.919,
+      "width": 62.0,
+      "height": 23.0,
+      "image_w": 960,
+      "image_h": 643,
+      "all_preds": [
+        "AE87877 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow_bus_16280_2009-05_1243192380_Shipilovskaya_Street_Volzanin-6270.JPG",
+      "plate_type": "type1b",
+      "truth": "##57577",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 32.0,
+      "height": 13.0,
+      "image_w": 960,
+      "image_h": 643,
+      "all_preds": [
+        "ET1##77 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow_bus_16280_2009-05_1243192381_Shipilovskaya_Street_Volzanin-6270.JPG",
+      "plate_type": "type1b",
+      "truth": "##57577",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 31.0,
+      "height": 13.0,
+      "image_w": 960,
+      "image_h": 643,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Moscow_bus_16280_2010-01_1264677122_Kashirskoye_Highway_Volzanin-6270.tif.jpg",
+      "plate_type": "type1b",
+      "truth": "BY57577",
+      "category": "correct",
+      "pred": "BY57577 type1b",
+      "pred_conf": 0.846,
+      "width": 58.0,
+      "height": 20.0,
+      "image_w": 960,
+      "image_h": 643,
+      "all_preds": [
+        "BY57577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow_bus_16445_2012-01_1326105895_Marshala_Shestopalova_Street_Volzanin-5270.JPG",
+      "plate_type": "type1b",
+      "truth": "EK11777",
+      "category": "correct",
+      "pred": "EK11777 type1b",
+      "pred_conf": 0.754,
+      "width": 83.0,
+      "height": 19.0,
+      "image_w": 960,
+      "image_h": 639,
+      "all_preds": [
+        "EK11777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow_bus_Ikarus-435_09469_(16537502196).jpg",
+      "plate_type": "type1b",
+      "truth": "KK82177",
+      "category": "correct",
+      "pred": "KK82177 type1b",
+      "pred_conf": 0.727,
+      "width": 57.0,
+      "height": 19.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "KK82177 type1b",
+        "AY07577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Moscow_bus_Ikarus-435_09469_(16537502196).jpg",
+      "plate_type": "type1b",
+      "truth": "AY07577",
+      "category": "correct",
+      "pred": "AY07577 type1b",
+      "pred_conf": 0.823,
+      "width": 43.0,
+      "height": 29.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": [
+        "KK82177 type1b",
+        "AY07577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Noginsk_bus_АМ628_50_2007-02_1171113341_Sovetskaya_Street_LiAZ-677.JPG",
+      "plate_type": "type1b",
+      "truth": "AM62850",
+      "category": "wrong_chars_1",
+      "pred": "AH62850 type1b",
+      "pred_conf": 0.378,
+      "width": 47.6,
+      "height": 12.2,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "AH62850 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Novjara_buso_en_strato_Respubliko_(Tjumeno).jpg",
+      "plate_type": "type1b",
+      "truth": "AO679##",
+      "category": "unreadable_label",
+      "pred": null,
+      "pred_conf": null,
+      "width": 155.0,
+      "height": 62.8,
+      "image_w": 4608,
+      "image_h": 2592,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/PD2a8bjicYRzNVP4YHsRbyEspb0a2cONZyReFsyo4pHz2vvP-35U19nu0Y_qLAPBYctcef_rfHgnClSFMwrak41O-fPOmQ.jpg",
+      "plate_type": "type1b",
+      "truth": "KA10750",
+      "category": "correct",
+      "pred": "KA10750 type1b",
+      "pred_conf": 0.872,
+      "width": 72.3,
+      "height": 35.4,
+      "image_w": 1499,
+      "image_h": 1000,
+      "all_preds": [
+        "KA10750 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Pccc5zt-HqJgwaqtQtRECPbnTX_XJV_HqCL4OyDoHZtWw_OW-Xv_WEsoVsu-OuVLu5tXFzbLM22TRgj3Zbsxmge9.jpg",
+      "plate_type": "other",
+      "truth": "5431AH02",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 212.7,
+      "height": 244.2,
+      "image_w": 1920,
+      "image_h": 2560,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Police_Car_in_SPB_02.jpg",
+      "plate_type": "other",
+      "truth": "0222178",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 131.0,
+      "height": 33.0,
+      "image_w": 960,
+      "image_h": 640,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/RE1-86GwGBc.jpg",
+      "plate_type": "other",
+      "truth": "A571066",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 190.3,
+      "height": 66.4,
+      "image_w": 960,
+      "image_h": 959,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Ramenskoye_bus_АН630_50_2007-12_1198423987_Karla_Marksa_street_LiAZ-5256.JPG",
+      "plate_type": "type1b",
+      "truth": "AH63050",
+      "category": "correct",
+      "pred": "AH63050 type1b",
+      "pred_conf": 0.355,
+      "width": 64.2,
+      "height": 21.0,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "AH63050 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Russia_police_car_03.JPG",
+      "plate_type": "other",
+      "truth": "O056978",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 72.0,
+      "height": 19.9,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Russia_police_car_03.JPG",
+      "plate_type": "other",
+      "truth": "O059878",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 84.2,
+      "height": 25.5,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/Russian_license_plate_(for_taxi,_buses).png",
+      "plate_type": "type1b",
+      "truth": "AO36578",
+      "category": "correct",
+      "pred": "AO36578 type1b",
+      "pred_conf": 0.913,
+      "width": 952.0,
+      "height": 192.0,
+      "image_w": 960,
+      "image_h": 194,
+      "all_preds": [
+        "AO36578 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Russian_police_car_18.JPG",
+      "plate_type": "other",
+      "truth": "A020039",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 313.1,
+      "height": 74.8,
+      "image_w": 960,
+      "image_h": 1280,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/TXSyJiYHwJBWioHJQ66inM5JXju7W-JKnn-e2NBUQ_v2BNWPN6LmGWmZE3s10XzxlXeRFbMdwlbcrIXLWdbgv5zI.jpg",
+      "plate_type": "type1b",
+      "truth": "AE40152",
+      "category": "correct",
+      "pred": "AE40152 type1b",
+      "pred_conf": 0.949,
+      "width": 73.3,
+      "height": 26.0,
+      "image_w": 1024,
+      "image_h": 768,
+      "all_preds": [
+        "AE40152 type1b"
+      ]
+    },
+    {
+      "image": "images/real/UEsZ9JrzW7YOj2m7zzuFcY78neddp5lABh2bZoBYdLDuGQRXuBv6GNeAGDVzdFVzYFNyz8A8Or_rEsJzeC9By5tr.jpg",
+      "plate_type": "type1b",
+      "truth": "AY24116",
+      "category": "correct",
+      "pred": "AY24116 type1b",
+      "pred_conf": 0.834,
+      "width": 138.6,
+      "height": 36.2,
+      "image_w": 1300,
+      "image_h": 1024,
+      "all_preds": [
+        "AY24116 type1b"
+      ]
+    },
+    {
+      "image": "images/real/U_yggq1bG4wwlfjzCMzNDhm4C09GE6hicNNlM7o8VxfKp4lePwr9WhUc4U6jCGLNFx4BkclGsxuYycDgB-GwQR5ATZ3PfA.jpg",
+      "plate_type": "type1b",
+      "truth": "PA87477",
+      "category": "correct",
+      "pred": "PA87477 type1b",
+      "pred_conf": 0.856,
+      "width": 49.0,
+      "height": 20.0,
+      "image_w": 640,
+      "image_h": 480,
+      "all_preds": [
+        "PA87477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Volzhanin_CityRhythm-12_in_Moscow_01.jpg",
+      "plate_type": "type1b",
+      "truth": "EK22177",
+      "category": "correct",
+      "pred": "EK22177 type1b",
+      "pred_conf": 0.933,
+      "width": 74.2,
+      "height": 39.9,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "EK22177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Volzhanin_CityRhythm-12_in_Moscow_02.jpg",
+      "plate_type": "type1b",
+      "truth": "EK22177",
+      "category": "correct",
+      "pred": "EK22177 type1b",
+      "pred_conf": 0.933,
+      "width": 93.0,
+      "height": 39.9,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "EK22177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Volzhanin_CityRhythm-12_in_Moscow_05.jpg",
+      "plate_type": "type1b",
+      "truth": "EK22177",
+      "category": "correct",
+      "pred": "EK22177 type1b",
+      "pred_conf": 0.951,
+      "width": 103.0,
+      "height": 41.0,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "EK22177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/Vykhino,_Moscow_taxi_and_bus.jpeg",
+      "plate_type": "type1b",
+      "truth": "BK40777",
+      "category": "correct",
+      "pred": "BK40777 type1b",
+      "pred_conf": 0.795,
+      "width": 67.6,
+      "height": 22.2,
+      "image_w": 960,
+      "image_h": 720,
+      "all_preds": [
+        "BK40777 type1b",
+        "K593HY199 type1"
+      ]
+    },
+    {
+      "image": "images/real/XQiNOCKGX9_iXHKeabonlraBYJwIZ-lmKdVivRilxR16333VSXbsxZmHrDy2CKnIK41MHpQhhW5HBiDpCAwI2rq1.jpg",
+      "plate_type": "type1b",
+      "truth": "XB16377",
+      "category": "read_with_hash",
+      "pred": "##16377 type1b",
+      "pred_conf": 0.394,
+      "width": 47.1,
+      "height": 15.2,
+      "image_w": 1303,
+      "image_h": 900,
+      "all_preds": [
+        "##16377 type1b"
+      ]
+    },
+    {
+      "image": "images/real/f2VSRV_mwQzKtWrEXFhUXftjvjL-CcNkc6dTiZ7y5nchTKNBTky3WBtENe4cqtXiaKAv1WBrnP4GYUp2d4-zasCH.jpg",
+      "plate_type": "type1b",
+      "truth": "AC02872",
+      "category": "correct",
+      "pred": "AC02872 type1b",
+      "pred_conf": 0.829,
+      "width": 81.4,
+      "height": 26.1,
+      "image_w": 1598,
+      "image_h": 898,
+      "all_preds": [
+        "AC02872 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (10).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "EK38563",
+      "category": "correct",
+      "pred": "EK38563 type1b",
+      "pred_conf": 0.904,
+      "width": 62.0,
+      "height": 23.0,
+      "image_w": 480,
+      "image_h": 320,
+      "all_preds": [
+        "EK38563 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (11).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "KE00177",
+      "category": "correct",
+      "pred": "KE00177 type1b",
+      "pred_conf": 0.923,
+      "width": 110.0,
+      "height": 25.0,
+      "image_w": 353,
+      "image_h": 320,
+      "all_preds": [
+        "KE00177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (12).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "BA88866",
+      "category": "correct",
+      "pred": "BA88866 type1b",
+      "pred_conf": 0.756,
+      "width": 58.0,
+      "height": 19.0,
+      "image_w": 427,
+      "image_h": 320,
+      "all_preds": [
+        "BA88866 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (13).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "OY46077",
+      "category": "correct",
+      "pred": "OY46077 type1b",
+      "pred_conf": 0.861,
+      "width": 95.0,
+      "height": 28.0,
+      "image_w": 480,
+      "image_h": 310,
+      "all_preds": [
+        "OY46077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (14).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "MB00577",
+      "category": "correct",
+      "pred": "MB00577 type1b",
+      "pred_conf": 0.901,
+      "width": 78.0,
+      "height": 25.0,
+      "image_w": 431,
+      "image_h": 320,
+      "all_preds": [
+        "A###AT#7 type1",
+        "MB00577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (15).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "CH00277",
+      "category": "wrong_chars_1",
+      "pred": "CH00267 type1b",
+      "pred_conf": 0.79,
+      "width": 69.0,
+      "height": 23.0,
+      "image_w": 377,
+      "image_h": 320,
+      "all_preds": [
+        "CH00267 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (16).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "YY44477",
+      "category": "correct",
+      "pred": "YY44477 type1b",
+      "pred_conf": 0.892,
+      "width": 94.0,
+      "height": 25.0,
+      "image_w": 480,
+      "image_h": 320,
+      "all_preds": [
+        "E464PB777 type1",
+        "YY44477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (17).webp.jpg",
+      "plate_type": "other",
+      "truth": "AB008A68",
+      "category": "output_as_type1x",
+      "pred": "A#00#A69 type1",
+      "pred_conf": 0.375,
+      "width": 96.0,
+      "height": 28.0,
+      "image_w": 480,
+      "image_h": 306,
+      "all_preds": [
+        "A#00#A69 type1"
+      ]
+    },
+    {
+      "image": "images/real/i (5).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "BK22299",
+      "category": "correct",
+      "pred": "BK22299 type1b",
+      "pred_conf": 0.796,
+      "width": 110.0,
+      "height": 28.0,
+      "image_w": 440,
+      "image_h": 320,
+      "all_preds": [
+        "BK22299 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (6).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "YB05177",
+      "category": "correct",
+      "pred": "YB05177 type1b",
+      "pred_conf": 0.724,
+      "width": 106.0,
+      "height": 25.0,
+      "image_w": 480,
+      "image_h": 320,
+      "all_preds": [
+        "YB05177 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (7).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "YH98077",
+      "category": "correct",
+      "pred": "YH98077 type1b",
+      "pred_conf": 0.65,
+      "width": 119.0,
+      "height": 29.0,
+      "image_w": 480,
+      "image_h": 288,
+      "all_preds": [
+        "YH98077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i (9).webp.jpg",
+      "plate_type": "type1b",
+      "truth": "BA66078",
+      "category": "correct",
+      "pred": "BA66078 type1b",
+      "pred_conf": 0.981,
+      "width": 109.0,
+      "height": 32.0,
+      "image_w": 365,
+      "image_h": 320,
+      "all_preds": [
+        "BA66078 type1b"
+      ]
+    },
+    {
+      "image": "images/real/i.webp.jpg",
+      "plate_type": "type1b",
+      "truth": "YH98077",
+      "category": "correct",
+      "pred": "YH98077 type1b",
+      "pred_conf": 0.483,
+      "width": 127.0,
+      "height": 32.0,
+      "image_w": 480,
+      "image_h": 288,
+      "all_preds": [
+        "YH98077 type1b"
+      ]
+    },
+    {
+      "image": "images/real/ieQWT8DZpjCWPR7oBCKpKkFdtd9c6KTMRPOQ2yoROubF_zds4H9rew5LjDMPXB0yAW2OutTitiP7FywtMCOczTGt.jpg",
+      "plate_type": "other",
+      "truth": "7495AH02",
+      "category": "not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 55.9,
+      "height": 48.9,
+      "image_w": 2560,
+      "image_h": 1440,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/lm5wtUQnkQCs052TtD3A6mDeax_1XXDOKgSA6IrVZI-xPRjbrjESPiGDgJjjkakT6pPLEP3oSM-lV9RaOVRF47ES.jpg",
+      "plate_type": "type1b",
+      "truth": "BC35763",
+      "category": "wrong_chars_1",
+      "pred": "BC35767 type1b",
+      "pred_conf": 0.768,
+      "width": 77.7,
+      "height": 31.9,
+      "image_w": 922,
+      "image_h": 692,
+      "all_preds": [
+        "BC35767 type1b"
+      ]
+    },
+    {
+      "image": "images/real/m5eKBm9iqvTX_X34dp-Tj-tZ-CO4auYUyKWBVuhSxHvwJAk8gVMzVdtXFrZ50gzhYwcOnTSGpBMJ_vt9KIHx0dwG.jpg",
+      "plate_type": "other",
+      "truth": "1310AO02",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 200.1,
+      "height": 223.4,
+      "image_w": 2560,
+      "image_h": 1441,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (1).webp_6aca9d1c54.jpg",
+      "plate_type": "other",
+      "truth": "1738MO77",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 62.0,
+      "height": 16.0,
+      "image_w": 480,
+      "image_h": 284,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (12).webp_a9f4d17284.jpg",
+      "plate_type": "other",
+      "truth": "3788AT50",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 46.0,
+      "height": 16.0,
+      "image_w": 480,
+      "image_h": 256,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (12).webp_a9f4d17284.jpg",
+      "plate_type": "other",
+      "truth": "3442AT50",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 30.0,
+      "height": 10.0,
+      "image_w": 480,
+      "image_h": 256,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (13).webp_d2b8de5daa.jpg",
+      "plate_type": "other",
+      "truth": "8479EE43",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 72.0,
+      "height": 17.0,
+      "image_w": 405,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (14).webp_8d2664eff1.jpg",
+      "plate_type": "other",
+      "truth": "3722BA15",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 65.0,
+      "height": 15.0,
+      "image_w": 480,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (15).webp_bdfcfe39d8.jpg",
+      "plate_type": "other",
+      "truth": "0070BA15",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 49.0,
+      "height": 15.0,
+      "image_w": 426,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (2).webp_eda33ec585.jpg",
+      "plate_type": "other",
+      "truth": "5947MO77",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 96.0,
+      "height": 22.0,
+      "image_w": 480,
+      "image_h": 316,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (3).webp_2da5d2684d.jpg",
+      "plate_type": "other",
+      "truth": "3004YC12",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 71.0,
+      "height": 17.0,
+      "image_w": 458,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (6).webp_0badb1f29c.jpg",
+      "plate_type": "other",
+      "truth": "0002Y54",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 41.0,
+      "height": 29.0,
+      "image_w": 240,
+      "image_h": 320,
+      "all_preds": [
+        "O770#M54 type1"
+      ]
+    },
+    {
+      "image": "images/real/other_i (7).webp_9017d24ded.jpg",
+      "plate_type": "other",
+      "truth": "7777BB77",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 37.0,
+      "height": 26.0,
+      "image_w": 404,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (8).webp_7068e4ca03.jpg",
+      "plate_type": "other",
+      "truth": "5678BK50",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 47.0,
+      "height": 40.0,
+      "image_w": 370,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/other_i (9).webp_3e5753c216.jpg",
+      "plate_type": "other",
+      "truth": "M022278",
+      "category": "detected_not_output",
+      "pred": null,
+      "pred_conf": null,
+      "width": 61.0,
+      "height": 25.0,
+      "image_w": 421,
+      "image_h": 320,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo-1667567694866-cd3d3ab6565a.jpg",
+      "plate_type": "type1b",
+      "truth": "OY68777",
+      "category": "correct",
+      "pred": "OY68777 type1b",
+      "pred_conf": 0.8,
+      "width": 52.8,
+      "height": 14.4,
+      "image_w": 1170,
+      "image_h": 780,
+      "all_preds": [
+        "OY68777 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo-1667868104328-4c7fe57d34ba.jpg",
+      "plate_type": "type1b",
+      "truth": "OH02577",
+      "category": "correct",
+      "pred": "OH02577 type1b",
+      "pred_conf": 0.823,
+      "width": 80.4,
+      "height": 22.8,
+      "image_w": 1170,
+      "image_h": 780,
+      "all_preds": [
+        "OH02577 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo-1678964101682-26a0906972ad.jpg",
+      "plate_type": "type1b",
+      "truth": "OP81477",
+      "category": "correct",
+      "pred": "OP81477 type1b",
+      "pred_conf": 0.32,
+      "width": 82.9,
+      "height": 26.4,
+      "image_w": 1171,
+      "image_h": 781,
+      "all_preds": [
+        "OP81477 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo-1700426884345-933fc203f599.jpg",
+      "plate_type": "type1b",
+      "truth": "BO45999",
+      "category": "missed_not_detected",
+      "pred": null,
+      "pred_conf": null,
+      "width": 41.2,
+      "height": 17.2,
+      "image_w": 626,
+      "image_h": 1115,
+      "all_preds": []
+    },
+    {
+      "image": "images/real/photo-1702456213486-4a2cfb92270b.jpg",
+      "plate_type": "type1b",
+      "truth": "XX90677",
+      "category": "correct",
+      "pred": "XX90677 type1b",
+      "pred_conf": 0.752,
+      "width": 80.9,
+      "height": 23.8,
+      "image_w": 687,
+      "image_h": 1031,
+      "all_preds": [
+        "XX90677 type1b"
+      ]
+    },
+    {
+      "image": "images/real/photo_001.png",
+      "plate_type": "type1a",
+      "truth": "X387PX763",
+      "category": "correct",
+      "pred": "X387PX763 type1a",
+      "pred_conf": 0.941,
+      "width": 121.1,
+      "height": 91.6,
+      "image_w": 1440,
+      "image_h": 1920,
+      "all_preds": [
+        "X387PX763 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_002.png",
+      "plate_type": "type1a",
+      "truth": "X387PX763",
+      "category": "correct",
+      "pred": "X387PX763 type1a",
+      "pred_conf": 0.917,
+      "width": 112.2,
+      "height": 85.7,
+      "image_w": 1440,
+      "image_h": 1920,
+      "all_preds": [
+        "X387PX763 type1a"
+      ]
+    },
+    {
+      "image": "images/real/photo_003.png",
+      "plate_type": "type1a",
+      "truth": "X387PX763",
+      "category": "correct",
+      "pred": "X387PX763 type1a",
+      "pred_conf": 0.777,
+      "width": 112.2,
+      "height": 70.9,
+      "image_w": 1440,
+      "image_h": 1920,
+      "all_preds": [
+        "X387PX763 type1a"
+      ]
+    }
+  ]
+}

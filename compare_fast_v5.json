@@ -1,0 +1,146 @@
+{
+  "итоговый v4 (быстрый)": {
+    "val": {
+      "correct": 42,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "30/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 65.3,
+      "p95_ms": 125.1
+    },
+    "type1 из train": {
+      "correct": 80,
+      "by_type": {
+        "type1": "80/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 65.2,
+      "p95_ms": 115.1
+    },
+    "весь train": {
+      "correct": 249,
+      "by_type": {
+        "type1": "80/98",
+        "type1a": "49/102",
+        "type1b": "120/191"
+      },
+      "other_as_type1": 2,
+      "images_changed_vs_current": 0,
+      "mean_ms": 61.4,
+      "p95_ms": 95.2
+    },
+    "gpu_memory_mb": 146
+  },
+  "квадратный вход без графов": {
+    "val": {
+      "correct": 39,
+      "by_type": {
+        "type1a": "13/27",
+        "type1b": "26/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 26,
+      "mean_ms": 57.9,
+      "p95_ms": 82.1
+    },
+    "type1 из train": {
+      "correct": 83,
+      "by_type": {
+        "type1": "83/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 17,
+      "mean_ms": 55.9,
+      "p95_ms": 75.0
+    },
+    "весь train": {
+      "correct": 258,
+      "by_type": {
+        "type1": "83/98",
+        "type1a": "58/102",
+        "type1b": "117/191"
+      },
+      "other_as_type1": 2,
+      "images_changed_vs_current": 95,
+      "mean_ms": 55.1,
+      "p95_ms": 82.2
+    },
+    "gpu_memory_mb": 448
+  },
+  "квадратный + CUDA graphs": {
+    "val": {
+      "correct": 38,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "26/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 28,
+      "mean_ms": 42.9,
+      "p95_ms": 65.9
+    },
+    "type1 из train": {
+      "correct": 79,
+      "by_type": {
+        "type1": "79/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 20,
+      "mean_ms": 34.1,
+      "p95_ms": 50.6
+    },
+    "весь train": {
+      "correct": 256,
+      "by_type": {
+        "type1": "79/98",
+        "type1a": "60/102",
+        "type1b": "117/191"
+      },
+      "other_as_type1": 3,
+      "images_changed_vs_current": 113,
+      "mean_ms": 36.1,
+      "p95_ms": 62.1
+    },
+    "gpu_memory_mb": 578
+  },
+  "квадратный + графы + чтение заранее": {
+    "val": {
+      "correct": 39,
+      "by_type": {
+        "type1a": "13/27",
+        "type1b": "26/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 26,
+      "mean_ms": 27.8,
+      "p95_ms": 48.6
+    },
+    "type1 из train": {
+      "correct": 83,
+      "by_type": {
+        "type1": "83/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 17,
+      "mean_ms": 27.3,
+      "p95_ms": 37.1
+    },
+    "весь train": {
+      "correct": 258,
+      "by_type": {
+        "type1": "83/98",
+        "type1a": "58/102",
+        "type1b": "117/191"
+      },
+      "other_as_type1": 2,
+      "images_changed_vs_current": 95,
+      "mean_ms": 25.4,
+      "p95_ms": 44.9
+    },
+    "gpu_memory_mb": 650
+  }
+}

@@ -1,0 +1,8 @@
+# Versions used to train and verify the final models (Python 3.9.13, RTX 3060).
+# Install PyTorch first, see README.md:
+#   python -m pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu118
+# Full environment snapshot: requirements-lock.txt (written by make_submission.py).
+ultralytics==8.4.163
+opencv-python==5.0.0.93
+Pillow==11.3.0
+numpy==2.0.2

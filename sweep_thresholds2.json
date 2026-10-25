@@ -1,0 +1,112 @@
+[
+  {
+    "det": 0.3,
+    "char": 0.4,
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 15,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.3,
+    "char": 0.45,
+    "correct": 56,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "39/63"
+    },
+    "extra": 17,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.3,
+    "char": 0.5,
+    "correct": 55,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "38/63"
+    },
+    "extra": 18,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.3,
+    "char": 0.55,
+    "correct": 55,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "38/63"
+    },
+    "extra": 18,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.3,
+    "char": 0.65,
+    "correct": 53,
+    "by_type": {
+      "type1a": "16/27",
+      "type1b": "37/63"
+    },
+    "extra": 20,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.4,
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.45,
+    "correct": 54,
+    "by_type": {
+      "type1a": "15/27",
+      "type1b": "39/63"
+    },
+    "extra": 22,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.5,
+    "correct": 55,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "38/63"
+    },
+    "extra": 17,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.55,
+    "correct": 55,
+    "by_type": {
+      "type1a": "17/27",
+      "type1b": "38/63"
+    },
+    "extra": 17,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.65,
+    "correct": 53,
+    "by_type": {
+      "type1a": "16/27",
+      "type1b": "37/63"
+    },
+    "extra": 19,
+    "other_as_type1": 0
+  }
+]

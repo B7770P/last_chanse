@@ -1,0 +1,23 @@
+{
+  "V0 как сейчас": {
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0,
+    "missed_not_detected": 12,
+    "missed_no_text": 8,
+    "categories": {
+      "correct": 58,
+      "missed_no_text": 8,
+      "read_with_hash": 4,
+      "missed_not_detected": 12,
+      "wrong_chars_1": 6,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 27.8,
+    "p95_ms": 49.9
+  }
+}

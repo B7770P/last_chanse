@@ -1,0 +1,26 @@
+{
+  "validator": "local-v2 (type-aware masks; not organizer validator)",
+  "valid_structure": true,
+  "statistics": {
+    "real_type1b_plates": 334,
+    "real_other_plates": 56,
+    "real_type1a_plates": 151,
+    "real_type1_plates": 100,
+    "synthetic_type1a_plates": 1900,
+    "synthetic_type1_plates": 900,
+    "synthetic_type1b_plates": 2082,
+    "synthetic_other_plates": 323,
+    "real_images": 606,
+    "synthetic_images": 5000,
+    "real_type1a_images": 151,
+    "real_type1a_unique_numbers": 87,
+    "real_type1b_images": 302,
+    "real_type1b_unique_numbers": 275,
+    "real_other_images": 53,
+    "real_other_unique_numbers": 53
+  },
+  "errors": [],
+  "warnings": [
+    "Legal rights, faces, image observability and near-duplicates require human review. Organizer validation still required."
+  ]
+}

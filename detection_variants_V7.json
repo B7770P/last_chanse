@@ -1,0 +1,22 @@
+{
+  "V7 = V5 + mask_decode": {
+    "correct": 63,
+    "by_type": {
+      "type1a": "19/27",
+      "type1b": "44/63"
+    },
+    "extra": 28,
+    "other_as_type1": 1,
+    "missed_not_detected": 6,
+    "missed_no_text": 0,
+    "categories": {
+      "correct": 63,
+      "read_with_hash": 12,
+      "missed_not_detected": 6,
+      "wrong_chars_1": 7,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 33.0,
+    "p95_ms": 58.3
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "сейчас (итоговый)": {
+    "val": {
+      "correct": 37,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "25/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 124.6,
+      "p95_ms": 218.2
+    },
+    "type1 из train": {
+      "correct": 81,
+      "by_type": {
+        "type1": "81/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 73.2,
+      "p95_ms": 111.0
+    }
+  },
+  "прямой YOLO": {
+    "val": {
+      "correct": 37,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "25/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 85.0,
+      "p95_ms": 133.9
+    },
+    "type1 из train": {
+      "correct": 81,
+      "by_type": {
+        "type1": "81/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 58.6,
+      "p95_ms": 73.7
+    }
+  },
+  "прямой YOLO + пропуск 960": {
+    "val": {
+      "correct": 37,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "25/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 0,
+      "mean_ms": 64.7,
+      "p95_ms": 98.2
+    },
+    "type1 из train": {
+      "correct": 80,
+      "by_type": {
+        "type1": "80/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 1,
+      "mean_ms": 58.3,
+      "p95_ms": 75.1
+    }
+  },
+  "+ чтение JPEG до 2000": {
+    "val": {
+      "correct": 39,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "27/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 3,
+      "mean_ms": 61.2,
+      "p95_ms": 90.0
+    },
+    "type1 из train": {
+      "correct": 80,
+      "by_type": {
+        "type1": "80/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 1,
+      "mean_ms": 58.4,
+      "p95_ms": 74.2
+    }
+  },
+  "+ чтение JPEG до 1600": {
+    "val": {
+      "correct": 42,
+      "by_type": {
+        "type1a": "12/27",
+        "type1b": "30/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 11,
+      "mean_ms": 57.6,
+      "p95_ms": 79.2
+    },
+    "type1 из train": {
+      "correct": 80,
+      "by_type": {
+        "type1": "80/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 1,
+      "mean_ms": 58.6,
+      "p95_ms": 72.8
+    }
+  },
+  "без белого детектора и 960": {
+    "val": {
+      "correct": 35,
+      "by_type": {
+        "type1a": "10/27",
+        "type1b": "25/63"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 14,
+      "mean_ms": 48.2,
+      "p95_ms": 84.2
+    },
+    "type1 из train": {
+      "correct": 64,
+      "by_type": {
+        "type1": "64/98"
+      },
+      "other_as_type1": 0,
+      "images_changed_vs_current": 34,
+      "mean_ms": 25.5,
+      "p95_ms": 39.0
+    }
+  }
+}

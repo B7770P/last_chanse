@@ -1,0 +1,183 @@
+{
+  "images": 72,
+  "by_type": {
+    "type1": {
+      "total": 14,
+      "correct": 8,
+      "accuracy": 0.571
+    },
+    "type1a": {
+      "total": 21,
+      "correct": 11,
+      "accuracy": 0.524
+    },
+    "type1b": {
+      "total": 22,
+      "correct": 13,
+      "accuracy": 0.591
+    }
+  },
+  "all_targets": {
+    "total": 57,
+    "correct": 32
+  },
+  "other_images": 16,
+  "other_output_as_type1": 0,
+  "predictions_on_unlabelled_images": [
+    "ed6fdbdde4549f06d26388ab970db49c (1).jpg"
+  ],
+  "errors": [
+    {
+      "image": "007319f5ccfb71470cbfe207413a77e2.jpg",
+      "expected": "X500AM95 type1",
+      "predicted": []
+    },
+    {
+      "image": "017859efc4884ddd9e7d6b7c41269f32.jpg",
+      "expected": "TP54477 type1b",
+      "predicted": []
+    },
+    {
+      "image": "0cea398ba2a4b5be47890dd1f65eef3f.jpg",
+      "expected": "H552AH10 type1a",
+      "predicted": [
+        "H552#H4#4 type1a"
+      ]
+    },
+    {
+      "image": "10751fb44d3f504001f9392ce6867303.jpg",
+      "expected": "MT39077 type1b",
+      "predicted": [
+        "HT39077 type1b"
+      ]
+    },
+    {
+      "image": "12dcba88f51a6b38b117f980de5a5b1f.jpg",
+      "expected": "CB81177 type1b",
+      "predicted": [
+        "O#81177 type1b"
+      ]
+    },
+    {
+      "image": "1e7aed58a829f2aa57bd6466742741d4.jpg",
+      "expected": "A317EM123 type1a",
+      "predicted": []
+    },
+    {
+      "image": "2d1ea9b347af919c1853ecf45e812ba7.jpg",
+      "expected": "K777TX05 type1",
+      "predicted": [
+        "X111AC05 type1",
+        "#777T#0# type1"
+      ]
+    },
+    {
+      "image": "4090673065101c23af357b79cefdd7e3.jpg",
+      "expected": "P499HM03 type1a",
+      "predicted": []
+    },
+    {
+      "image": "4f226a6d7fd89d1f5ed14068356925d9.jpg",
+      "expected": "HY84077 type1b",
+      "predicted": []
+    },
+    {
+      "image": "50c27ff7fcd00942c6eabcb01f90d702.jpg",
+      "expected": "E902CC702 type1",
+      "predicted": []
+    },
+    {
+      "image": "64beca68f1cdf6a57a8d94a8d19a13ec.jpg",
+      "expected": "E432TP125 type1a",
+      "predicted": [
+        "E432TP25 type1a"
+      ]
+    },
+    {
+      "image": "6c22e84676d3683c5da7f61ceace33da.jpg",
+      "expected": "K691HM53 type1a",
+      "predicted": [
+        "K891HM35 type1a"
+      ]
+    },
+    {
+      "image": "7130dfa971747ca4ca59465197b97b3b.jpg",
+      "expected": "PB07077 type1b",
+      "predicted": []
+    },
+    {
+      "image": "71362443e6be6930e9cded4b3ea5d032.jpg",
+      "expected": "Y120MX14 type1a",
+      "predicted": [
+        "Y120MX1# type1a"
+      ]
+    },
+    {
+      "image": "89cbce9b9aad69bc46cfd769b37f425c.jpg",
+      "expected": "XB01277 type1b",
+      "predicted": []
+    },
+    {
+      "image": "91949751ff9f183830f42760b77f1ca4.jpg",
+      "expected": "X765PC125 type1a",
+      "predicted": [
+        "Y765PC155 type1a"
+      ]
+    },
+    {
+      "image": "925ba814a60ef9d0a73d6ff75d4adea4.jpg",
+      "expected": "K116EE702 type1",
+      "predicted": [
+        "X116##44 type1"
+      ]
+    },
+    {
+      "image": "9eb76e8a9a0a2f76550d7bff4ac6115e.jpg",
+      "expected": "X765PC125 type1a",
+      "predicted": []
+    },
+    {
+      "image": "a4f06ed77133f0ef6b9954d44149b4bf.jpg",
+      "expected": "H296XM54 type1a",
+      "predicted": [
+        "H296AM54 type1a"
+      ]
+    },
+    {
+      "image": "b8a9d8b3115e9619dbdba4f6377582b4.jpg",
+      "expected": "Y006PX66 type1",
+      "predicted": [
+        "T0#6##62 type1"
+      ]
+    },
+    {
+      "image": "cac4bf5817974833735aab3cf2b478bd.jpg",
+      "expected": "T857PH72 type1",
+      "predicted": [
+        "T867PH#72 type1"
+      ]
+    },
+    {
+      "image": "cd958dfa5b3c1aae52077993955625a9.jpg",
+      "expected": "BP71277 type1b",
+      "predicted": [
+        "PB71277 type1b"
+      ]
+    },
+    {
+      "image": "e116d9c4b8d082470fdbc90662c099a3.jpg",
+      "expected": "HT02777 type1b",
+      "predicted": []
+    },
+    {
+      "image": "e671283a4d319e80161f79b89867a27f.jpg",
+      "expected": "X765PC125 type1a",
+      "predicted": []
+    },
+    {
+      "image": "fec95f936101ecddd958a8784d561de6.jpg",
+      "expected": "OP58177 type1b",
+      "predicted": []
+    }
+  ]
+}

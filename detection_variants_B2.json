@@ -1,0 +1,655 @@
+{
+  "B2 = V6 + extra960 weights, always": {
+    "correct": 63,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "45/63"
+    },
+    "extra": 20,
+    "other_as_type1": 0,
+    "missed_not_detected": 3,
+    "missed_no_text": 10,
+    "categories": {
+      "correct": 63,
+      "wrong_chars_1": 7,
+      "missed_no_text": 10,
+      "missed_not_detected": 3,
+      "read_with_hash": 5,
+      "wrong_chars_3+": 2
+    },
+    "mean_ms": 35.1,
+    "p95_ms": 58.6,
+    "plates": [
+      {
+        "image": "images/real/-oGP2iA-nz9rW8ZSHgSntE4klrUqQnn2qbDOoSVwPD8vJ5ZQBuFxiLPbLA5dBhKKjVDBzNF4yegjP_x8whr6VcF0.jpg",
+        "truth": "KK18614",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "KK18614 type1b"
+      },
+      {
+        "image": "images/real/05472_20081021_158-ORIGINALFILE.jpg",
+        "truth": "AP31077",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AP31077 type1b"
+      },
+      {
+        "image": "images/real/09349_20130402_0017-ORIGINALFILE.jpg",
+        "truth": "AY25677",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AY25677 type1b"
+      },
+      {
+        "image": "images/real/11520795464_f90f3d9a9f_o.jpg",
+        "truth": "AE79277",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AE79277 type1b"
+      },
+      {
+        "image": "images/real/121896_amp.jpeg",
+        "truth": "YX91677",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "YX91677 type1b"
+      },
+      {
+        "image": "images/real/14448238456_3c0f766609_o.jpg",
+        "truth": "EE08577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EE08577 type1b"
+      },
+      {
+        "image": "images/real/16552236568_d678de2004_o.jpg",
+        "truth": "AC96177",
+        "plate_type": "type1b",
+        "category": "wrong_chars_1",
+        "pred": "AO96177 type1b"
+      },
+      {
+        "image": "images/real/16552236568_d678de2004_o.jpg",
+        "truth": "AY03377",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/16795945929_cc319d3569_o.jpg",
+        "truth": "AM68486",
+        "plate_type": "type1b",
+        "category": "missed_not_detected",
+        "pred": null
+      },
+      {
+        "image": "images/real/33452772176_0d7437d0d0_o.jpg",
+        "truth": "EY22650",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EY22650 type1b"
+      },
+      {
+        "image": "images/real/3916188605_0ddb45a350_o.jpg",
+        "truth": "AY14277",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AY14277 type1b"
+      },
+      {
+        "image": "images/real/4115287392_e8a04f7380_o.jpg",
+        "truth": "AB36764",
+        "plate_type": "type1b",
+        "category": "read_with_hash",
+        "pred": "A#767#7 type1b"
+      },
+      {
+        "image": "images/real/4VXM-zQk9MkV0Zes87WBX8neWnvMSVxgnlqttXud0n8rEBFOc_TjklhLgg3nbxUp4n7uxjNIFiuYIRoaIAmsFKhNzL4FPfC0RKSXxaOVjUvBqy93iDg0ceozpMVLye8jOxgM-9YlMkPtshK5Y97xSf9Wt8Oe-Fo-dKTbI83AfbVJyWyHhKAJ1Q.webp.jpg",
+        "truth": "AM22299",
+        "plate_type": "type1b",
+        "category": "missed_not_detected",
+        "pred": null
+      },
+      {
+        "image": "images/real/51063460123_c87aa88167_o.jpg",
+        "truth": "BY08777",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "BY08777 type1b"
+      },
+      {
+        "image": "images/real/51063542273_0d65f43aa7_o.jpg",
+        "truth": "BE91477",
+        "plate_type": "type1b",
+        "category": "wrong_chars_1",
+        "pred": "PE91477 type1b"
+      },
+      {
+        "image": "images/real/51064168931_05b74b8183_o.jpg",
+        "truth": "BY08777",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/51064186366_29594034bc_o.jpg",
+        "truth": "AB56969",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AB56969 type1b"
+      },
+      {
+        "image": "images/real/51064186366_29594034bc_o.jpg",
+        "truth": "AM17550",
+        "plate_type": "type1b",
+        "category": "read_with_hash",
+        "pred": "AM7550# type1b"
+      },
+      {
+        "image": "images/real/51064223137_a31be016ba_o.jpg",
+        "truth": "BB57301",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "BB57301 type1b"
+      },
+      {
+        "image": "images/real/51064258306_a7b50727d5_o.jpg",
+        "truth": "AT20677",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AT20677 type1b"
+      },
+      {
+        "image": "images/real/51064440961_f5d00ce5f5_o.jpg",
+        "truth": "BT18077",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "BT18077 type1b"
+      },
+      {
+        "image": "images/real/51064478442_e76610c3e2_o.jpg",
+        "truth": "EA26650",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EA26650 type1b"
+      },
+      {
+        "image": "images/real/51064534791_3e1ccd844f_o.jpg",
+        "truth": "AX27377",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AX27377 type1b"
+      },
+      {
+        "image": "images/real/51064587112_7bc85afd64_o.jpg",
+        "truth": "AY35877",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AY35877 type1b"
+      },
+      {
+        "image": "images/real/51064627382_b13d23b81d_o.jpg",
+        "truth": "AX27377",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AX27377 type1b"
+      },
+      {
+        "image": "images/real/52903093369_f4e7709512_o.jpg",
+        "truth": "PK76977",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "PK76977 type1b"
+      },
+      {
+        "image": "images/real/54539790242_dccfe1f2e5_o.jpg",
+        "truth": "EC04177",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EC04177 type1b"
+      },
+      {
+        "image": "images/real/54541009145_5ca2e29965_o.jpg",
+        "truth": "EC04177",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EC04177 type1b"
+      },
+      {
+        "image": "images/real/54604902964_e99b285d6a_o.jpg",
+        "truth": "YA48377",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "YA48377 type1b"
+      },
+      {
+        "image": "images/real/54605012375_88fbeb44d5_o.jpg",
+        "truth": "OK13177",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "OK13177 type1b"
+      },
+      {
+        "image": "images/real/55006185815_cd83a6bd08_o.jpg",
+        "truth": "CA72077",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "CA72077 type1b"
+      },
+      {
+        "image": "images/real/55320967410_a132ee5e8a_o.jpg",
+        "truth": "AA19577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AA19577 type1b"
+      },
+      {
+        "image": "images/real/8811961219_540b0a28bc_o.jpg",
+        "truth": "AY14277",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AY14277 type1b"
+      },
+      {
+        "image": "images/real/8822552532_205dfb23b8_o.jpg",
+        "truth": "BK18677",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "BK18677 type1b"
+      },
+      {
+        "image": "images/real/9723893617_a8fe113375_o.jpg",
+        "truth": "AO75477",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AO75477 type1b"
+      },
+      {
+        "image": "images/real/9733598580_b4e711894c_o.jpg",
+        "truth": "BY93677",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "BY93677 type1b"
+      },
+      {
+        "image": "images/real/Buseto_Aromaŝevo_-_Tjumeno_01.jpg",
+        "truth": "AO69872",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AO69872 type1b"
+      },
+      {
+        "image": "images/real/Buseto_Aromaŝevo_-_Tjumeno_02.jpg",
+        "truth": "AO69872",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AO69872 type1b"
+      },
+      {
+        "image": "images/real/Buso_Hyundai_Universe_en_Tjumeno_01.jpg",
+        "truth": "AM88572",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/Buso_Hyundai_Universe_en_Tjumeno_02.jpg",
+        "truth": "AM88572",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AM88572 type1b"
+      },
+      {
+        "image": "images/real/Golovinsky_District,_Moscow,_Russia_-_panoramio_(10).jpg",
+        "truth": "EA51777",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EA51777 type1b"
+      },
+      {
+        "image": "images/real/Isuzu_bus_in_Cheboksary,_Russia.jpg",
+        "truth": "AM94621",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AM94621 type1b"
+      },
+      {
+        "image": "images/real/Moscow,_Gazelle_Next_in_'Social_Taxi'_livery,_Sept_2025_01.jpg",
+        "truth": "PT74977",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "PT74977 type1b"
+      },
+      {
+        "image": "images/real/Moscow,_Luidor-2250D_(GAZelle_Next)_bus,_May_2026_01.jpg",
+        "truth": "PT75577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "PT75577 type1b"
+      },
+      {
+        "image": "images/real/Moscow,_Pokrovka_14,12,_electric_bus,_May_2021_03.jpg",
+        "truth": "CB75177",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "CB75177 type1b"
+      },
+      {
+        "image": "images/real/Moscow,_southbound_city_bus_06511_on_Sheremetyevsky_overpass.jpg",
+        "truth": "AO63577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AO63577 type1b"
+      },
+      {
+        "image": "images/real/Mosgortrans_moscow_bus_16239_Volzanin-6270.06_(16087949196).jpg",
+        "truth": "EK18977",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/Sevan_street_2021-09_1631382188.JPG",
+        "truth": "HX93777",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "HX93777 type1b"
+      },
+      {
+        "image": "images/real/Sevan_street_2021-09_1631382188.JPG",
+        "truth": "PX95577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "PX95577 type1b"
+      },
+      {
+        "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+        "truth": "OB30377",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+        "truth": "MK86677",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+        "truth": "HK93777",
+        "plate_type": "type1b",
+        "category": "read_with_hash",
+        "pred": "##9377# type1b"
+      },
+      {
+        "image": "images/real/Sevan_street_2021-09_1631382195.JPG",
+        "truth": "PX95577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "PX95577 type1b"
+      },
+      {
+        "image": "images/real/ZvbJuWlhldqt9IT8PxzJTWzTuhX1BqeB6m81BYn86_P1k8OCsRfv0rm76NBo0_HDYJhYVRB9vcr3Gl4qtISzeukm.jpg",
+        "truth": "AY24316",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AY24316 type1b"
+      },
+      {
+        "image": "images/real/gKk15Wt64r7GrCzPq-lYlhN-2PF6mbPP8cHX7m52wGSBUaXGT56UdZEku8LxoE_Ru80Mqh_byNt_lWY575snOR_b.jpg",
+        "truth": "EP15450",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "EP15450 type1b"
+      },
+      {
+        "image": "images/real/i (2).webp.jpg",
+        "truth": "AA20577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "AA20577 type1b"
+      },
+      {
+        "image": "images/real/i (3).webp.jpg",
+        "truth": "EE70166",
+        "plate_type": "type1b",
+        "category": "missed_no_text",
+        "pred": " type1b"
+      },
+      {
+        "image": "images/real/photo-1603959984039-0a65a8be42ae.jpg",
+        "truth": "OC14577",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "OC14577 type1b"
+      },
+      {
+        "image": "images/real/photo-1652270625079-83dd767498db.jpg",
+        "truth": "BP09299",
+        "plate_type": "type1b",
+        "category": "wrong_chars_3+",
+        "pred": "CT09777 type1b"
+      },
+      {
+        "image": "images/real/photo-1652270625079-83dd767498db.jpg",
+        "truth": "TP16577",
+        "plate_type": "type1b",
+        "category": "missed_not_detected",
+        "pred": null
+      },
+      {
+        "image": "images/real/photo-1707334035191-bc0b5650f5e0.jpg",
+        "truth": "BC26699",
+        "plate_type": "type1b",
+        "category": "correct",
+        "pred": "BC26699 type1b"
+      },
+      {
+        "image": "images/real/photo_007.png",
+        "truth": "O698TK799",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "O698TK799 type1a"
+      },
+      {
+        "image": "images/real/photo_008.png",
+        "truth": "O698TK799",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "O698TK799 type1a"
+      },
+      {
+        "image": "images/real/photo_009.png",
+        "truth": "O698TK799",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "O698TK799 type1a"
+      },
+      {
+        "image": "images/real/photo_010.png",
+        "truth": "A882TE797",
+        "plate_type": "type1a",
+        "category": "read_with_hash",
+        "pred": "A882E#977 type1a"
+      },
+      {
+        "image": "images/real/photo_016.png",
+        "truth": "P927YT797",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "P927YT797 type1a"
+      },
+      {
+        "image": "images/real/photo_017.png",
+        "truth": "K488CO797",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "K488CO797 type1a"
+      },
+      {
+        "image": "images/real/photo_018.png",
+        "truth": "K488CO797",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "K488CO797 type1a"
+      },
+      {
+        "image": "images/real/photo_019.png",
+        "truth": "K488CO797",
+        "plate_type": "type1a",
+        "category": "read_with_hash",
+        "pred": "K488O#97 type1a"
+      },
+      {
+        "image": "images/real/photo_045.png",
+        "truth": "C504XK790",
+        "plate_type": "type1a",
+        "category": "wrong_chars_1",
+        "pred": "C504XK79 type1a"
+      },
+      {
+        "image": "images/real/photo_046.png",
+        "truth": "C504XK790",
+        "plate_type": "type1a",
+        "category": "wrong_chars_1",
+        "pred": "T504XK790 type1a"
+      },
+      {
+        "image": "images/real/photo_047.png",
+        "truth": "C504XK790",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "C504XK790 type1a"
+      },
+      {
+        "image": "images/real/photo_049.png",
+        "truth": "P982AY550",
+        "plate_type": "type1a",
+        "category": "wrong_chars_3+",
+        "pred": "P824AY57 type1a"
+      },
+      {
+        "image": "images/real/photo_050.png",
+        "truth": "P982AY550",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "P982AY550 type1a"
+      },
+      {
+        "image": "images/real/photo_052.png",
+        "truth": "P982AY550",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "P982AY550 type1a"
+      },
+      {
+        "image": "images/real/photo_066.png",
+        "truth": "X622PO763",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "X622PO763 type1a"
+      },
+      {
+        "image": "images/real/photo_067.png",
+        "truth": "X622PO763",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "X622PO763 type1a"
+      },
+      {
+        "image": "images/real/photo_068.png",
+        "truth": "X622PO763",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "X622PO763 type1a"
+      },
+      {
+        "image": "images/real/photo_077.png",
+        "truth": "O946OC75",
+        "plate_type": "type1a",
+        "category": "wrong_chars_1",
+        "pred": "O946HC75 type1a"
+      },
+      {
+        "image": "images/real/photo_115.png",
+        "truth": "O879KK75",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "O879KK75 type1a"
+      },
+      {
+        "image": "images/real/photo_116.png",
+        "truth": "O879KK75",
+        "plate_type": "type1a",
+        "category": "missed_no_text",
+        "pred": " type1a"
+      },
+      {
+        "image": "images/real/photo_117.png",
+        "truth": "O879KK75",
+        "plate_type": "type1a",
+        "category": "missed_no_text",
+        "pred": " type1a"
+      },
+      {
+        "image": "images/real/photo_128.png",
+        "truth": "H810PM125",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "H810PM125 type1a"
+      },
+      {
+        "image": "images/real/photo_137.png",
+        "truth": "K021CK799",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "K021CK799 type1a"
+      },
+      {
+        "image": "images/real/photo_138.png",
+        "truth": "B105HP763",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "B105HP763 type1a"
+      },
+      {
+        "image": "images/real/photo_144.png",
+        "truth": "B055YB38",
+        "plate_type": "type1a",
+        "category": "missed_no_text",
+        "pred": " type1a"
+      },
+      {
+        "image": "images/real/photo_150.png",
+        "truth": "X135CH56",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "X135CH56 type1a"
+      },
+      {
+        "image": "images/real/photo_152.png",
+        "truth": "T575BE977",
+        "plate_type": "type1a",
+        "category": "correct",
+        "pred": "T575BE977 type1a"
+      },
+      {
+        "image": "images/real/ГАЗель_NEXT_МГТ_социальное_такси_на_парковке_ЮРЛ_02.jpg",
+        "truth": "PT97077",
+        "plate_type": "type1b",
+        "category": "wrong_chars_1",
+        "pred": "PT67077 type1b"
+      },
+      {
+        "image": "images/real/Яндекс_Такси_с_предложением_в_Екатеринбурге_в_апреле_2020_года.jpg",
+        "truth": "KB58266",
+        "plate_type": "type1b",
+        "category": "wrong_chars_1",
+        "pred": "AB58266 type1b"
+      }
+    ]
+  }
+}

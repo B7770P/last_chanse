@@ -1,0 +1,35 @@
+[
+  {
+    "det": 0.35,
+    "char": 0.3,
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.35,
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0
+  },
+  {
+    "det": 0.35,
+    "char": 0.4,
+    "correct": 58,
+    "by_type": {
+      "type1a": "18/27",
+      "type1b": "40/63"
+    },
+    "extra": 14,
+    "other_as_type1": 0
+  }
+]

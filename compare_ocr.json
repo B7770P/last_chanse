@@ -1,0 +1,22 @@
+{
+  "прежний OCR": {
+    "ocr": "C:\\Users\\glamurchik\\Desktop\\pot\\plate_project\\models\\ocr_crops_20261024\\best.pt",
+    "correct": 38,
+    "by_type": {
+      "type1a": "12/27",
+      "type1b": "26/63"
+    },
+    "other_as_type1": 0,
+    "images_changed": 0
+  },
+  "новый OCR": {
+    "ocr": "models/ocr_synth_20261025/best.pt",
+    "correct": 46,
+    "by_type": {
+      "type1a": "12/27",
+      "type1b": "34/63"
+    },
+    "other_as_type1": 0,
+    "images_changed": 34
+  }
+}
