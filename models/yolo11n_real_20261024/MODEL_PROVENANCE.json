@@ -1,0 +1,27 @@
+{
+  "architecture": "YOLO11n",
+  "pretrained_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+  "license": "AGPL-3.0",
+  "license_url": "https://www.ultralytics.com/license",
+  "pretrained_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "trained_sha256": "291c7b2322739cce682986749a45d156cf6040e1087d4e1b564a263d8b4e9e46",
+  "versions": {
+    "torch": "2.7.1+cu118",
+    "torchvision": "0.22.1+cu118",
+    "ultralytics": "8.4.163",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "11.3.0"
+  },
+  "epochs": 20,
+  "seed": 42,
+  "device": "NVIDIA GeForce RTX 3060 12GB",
+  "training_images": 424,
+  "validation_images": 91,
+  "validation_plates": 99,
+  "test_images": 91,
+  "test_evaluated": false,
+  "type1_validation_available": false,
+  "ocr_evaluated": false,
+  "source_dataset": "C:\\Users\\glamurchik\\Desktop\\pot\\plate_project\\dataset_draft",
+  "source_split": "C:\\Users\\glamurchik\\Desktop\\pot\\plate_project\\splits\\real606.json"
+}

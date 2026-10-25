@@ -1,0 +1,21 @@
+{
+  "model": "models/ocr_synth_20261025/best.pt",
+  "kind": "ocr (CRNN, CTC)",
+  "parent": "models/ocr_crops_20261024/best.pt",
+  "script": "python -m alpr.train_ocr_synth --data dataset_composite5000 --split splits/real606.json --resume models/ocr_crops_20261024/best.pt --out models/ocr_synth_20261025",
+  "data": "real train crops of dataset_composite5000 (split splits/real606.json, train only, x3 per epoch) + 1600 procedural type1a/type1b crops per epoch from alpr/synth_crops.py (no photos used)",
+  "epochs": 30,
+  "lr": 0.0002,
+  "seed": 20261025,
+  "checkpoint_selection": "best val_exact on real val crops, then val_loss",
+  "val_exact_crops": {
+    "before": 0.5,
+    "after": 0.567
+  },
+  "pipeline_val": {
+    "before": "38 correct (type1a 12/27, type1b 26/63)",
+    "after": "46 correct (type1a 12/27, type1b 34/63)",
+    "report": "compare_ocr.json"
+  },
+  "created": "2026-10-25"
+}

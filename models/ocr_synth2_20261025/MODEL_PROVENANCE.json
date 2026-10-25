@@ -1,0 +1,22 @@
+{
+  "model": "models/ocr_synth2_20261025/best.pt",
+  "kind": "ocr (CRNN, CTC)",
+  "parent": "models/ocr_synth_20261025/best.pt",
+  "script": "python -m alpr.train_ocr_synth --data dataset_composite5000 --split splits/real606.json --resume models/ocr_synth_20261025/best.pt --out models/ocr_synth2_20261025 --epochs 60 --synth-per-epoch 3200",
+  "data": "real train crops of dataset_composite5000 (split splits/real606.json, train only, x3 per epoch) + 3200 procedural type1a/type1b crops per epoch from alpr/synth_crops.py (no photos used)",
+  "epochs": 60,
+  "lr": 0.0002,
+  "seed": 20261025,
+  "checkpoint_selection": "best val_exact on real val crops, then val_loss",
+  "val_exact_crops": {
+    "before": 0.567,
+    "after": 0.667
+  },
+  "pipeline_val": {
+    "before": "46 correct (type1a 12/27, type1b 34/63), char threshold 0.65",
+    "after": "53 correct (type1a 16/27, type1b 37/63) at char threshold 0.65; 58 correct (type1a 18/27, type1b 40/63) at char threshold 0.40",
+    "report": "compare_ocr2.json, sweep_thresholds2.json, sweep_thresholds3.json"
+  },
+  "fin_test": "never used for training, checkpoint selection or threshold selection; evaluated once after the choice (fin_test_report_v7.json)",
+  "created": "2026-10-25"
+}

@@ -1,0 +1,29 @@
+{
+  "train": {
+    "images": 424,
+    "class_images": {
+      "type1": 100,
+      "type1a": 102,
+      "type1b": 184,
+      "other": 38
+    }
+  },
+  "val": {
+    "images": 91,
+    "class_images": {
+      "type1": 0,
+      "type1a": 27,
+      "type1b": 56,
+      "other": 8
+    }
+  },
+  "test": {
+    "images": 91,
+    "class_images": {
+      "type1": 0,
+      "type1a": 22,
+      "type1b": 62,
+      "other": 7
+    }
+  }
+}

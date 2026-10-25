@@ -1,0 +1,15 @@
+{
+  "initial_model": "models/yolo11n_real_20261024/weights/best.pt",
+  "initial_sha256": "291c7b2322739cce682986749a45d156cf6040e1087d4e1b564a263d8b4e9e46",
+  "best_sha256": "ef41253bce1661c7f0df1e4c256ca037636a7c8a43299ce641d3aab6a5fdd9ba",
+  "dataset": "dataset_yolo_type1boost",
+  "train_images": 609,
+  "val_images": 151,
+  "added_train_type1": 187,
+  "added_val_type1": 60,
+  "epochs": 20,
+  "external_39_in_added_training": false,
+  "license": "AGPL-3.0",
+  "usage": "optional white-detector; not default replacement",
+  "limitations": "114.9ms mean on validation RTX3060 in combined mode; type1 OCR remains weak"
+}

@@ -1,0 +1,19 @@
+{
+  "architecture": "project CRNN, unchanged",
+  "initial_checkpoint": "models/ocr_real_20261024/best.pt",
+  "initial_sha256": "1055b5a723f884995a60d8906a2488bb54b833bf8700b2817020f28ec968132f",
+  "best_sha256": "cf8fcb6b7920044e82f49f9acd673c0430dfac10dabf9456217745a3f9704d95",
+  "epochs": 50,
+  "selected_epoch": 43,
+  "seed": 20261024,
+  "train_readable_plates": 391,
+  "val_readable_plates": 90,
+  "test_used_this_iteration": false,
+  "data": "dataset_draft",
+  "split": "splits/real606.json",
+  "crop_version": "real-contour-v1",
+  "selection": "val_exact, then val_loss",
+  "decoder": "greedy",
+  "val_pipeline_exact": 35,
+  "baseline_val_pipeline_exact": 26
+}
